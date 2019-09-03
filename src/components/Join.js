@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import Modal from "./Modal";
 import "./Join.scss";
 
@@ -86,9 +86,8 @@ class Join extends React.Component {
                 />
                 <div className="txt1">ENTHUSIASM</div>
                 <div className="txt2">热情</div>
-                <div className="txt3">热爱幼儿游泳行业，认同Blue</div>
-                <div className="txt3">(Cheering Swimming)的教育理念，</div>
-                <div>有志于长期发展亲子游泳早教事业</div>
+                <div>热爱幼儿游泳教育行业，认同卜鲁卜鲁亲子游泳(Blue Blue Baby Swimming)的教育理念，有志于长期
+                发展亲子游泳早教事业</div>
               </div>
               <div className="card">
                 <img
@@ -107,10 +106,8 @@ class Join extends React.Component {
                 />
                 <div className="txt1">OPERATION</div>
                 <div className="txt2">经营</div>
-                <div className="txt3">具有一定的经营管理能力，能够全身</div>
-                <div className="txt3">心投入经营管理，认同Blue</div>
-                <div className="txt3">(Cheering Swimming)的经营理念与</div>
-                <div>管理规范，接受总部的管理和指导</div>
+                <div className="txt3">具有一定的经营管理能力，能够全身心投入经营管理，认同卜鲁卜鲁亲子游泳（Blue Blue Baby Swimming）的经营理念与管理规范，接受总部的</div>
+                <div>管理和指导。</div>
               </div>
               <div className="card">
                 <img
@@ -328,7 +325,7 @@ class Join extends React.Component {
                 <div className="txt1">前期筹备支持</div>
                 <span className="txt2">
                   市场调研及评估 | 选址指导及建议 | 提供装修风格、装修方案及团队
-                  | 泳池设备安装及后续维护
+                  | 泳池设备安装
                 </span>
               </div>
             </div>
@@ -340,8 +337,8 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">阶梯式专业培训支持</div>
                 <span className="txt2">
-                  各岗位专项集中培训 | 教练、销售、管理专业进阶培训 |
-                  区域培训师巡校指导 | 外教到校授课指导
+                  岗位专项集中培训 | 教练专业培训 |
+                  区域培训师巡店指导 | 外教到店授课指导
                 </span>
               </div>
             </div>
@@ -357,12 +354,11 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">信息管理系统支持</div>
                 <span className="txt2">
-                  Blue集成化管理系统的安装与维护 |
-                  信息管理系统的四大端口分项培训及使用说明书 | 系统使用过
+                  自助约课系统的安装及使用 |
+                  信息管理系统的运用指导 | 各岗位端口的使用培训 | 
                 </span>
                 <span className="txt2">
-                  程中的疑问解答与问题解决 | 系统日常运行维护 |
-                  系统个性化需求功能开发
+                  约课系统升级维护
                 </span>
               </div>
             </div>
@@ -378,10 +374,10 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">运营管理支持</div>
                 <span className="txt2">
-                  管理制度汇编 | 运营工作流程 | 课程介绍手册 | 会员管理手册 |
-                  泳池管理手册 | 市场推广规划 |
+                  门店管理制度 | 岗位绩效管理制度 | 泳池水质管理手册 | 市场推广规划 |
+                  大型营销策划 |
                 </span>
-                <span className="txt2">大型营销策划 | 会员福利活动</span>
+                <span className="txt2"> 月度福利活动 |大型营销策划 | 会员福利活动</span>
               </div>
             </div>
           </div>
@@ -395,12 +391,10 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">教学指导支持</div>
                 <span className="txt2">
-                  课程分阶指导 | 课程体系分解指导 | 教学课程评分细则解读与升级 |
-                  课程内容多元化更新 | 教案
+                  课程分阶与课程体系分解指导 | 课程内容支持及多元化更新 | 教案创新及教具升级 |
+                  
                 </span>
-                <span className="txt2">
-                  创新及更新 | 教具升级 | 教学疑问解答 | 外教授课支持
-                </span>
+	<span className="txt2"> 教学课程评分体系</span>
               </div>
             </div>
           </div>
@@ -415,10 +409,10 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">品牌宣传支持</div>
                 <span className="txt2">
-                  品牌使用授权 | VI全套设计 | 品牌IP形象素材库 | 跨国际品牌联合
-                  | 专家讲座沙龙支持 | 自媒体、
+                  品牌使用授权 | 品牌VI全套设计支持 | 品牌素材库支持 | 跨国际品牌联合
+                  | 专家讲座沙龙支持 | 
                 </span>
-                <span className="txt2">官网、知名媒体等互联网宣传</span>
+                <span className="txt2">自媒体、官网、知名媒体等互联网宣传</span>
               </div>
             </div>
           </div>
@@ -430,19 +424,19 @@ class Join extends React.Component {
           <h3>FULL SUPPORT</h3>
           <div className="reward">
             <div className="card">
-              <div>Blue( Cheering Swimming)属于国际专业游泳早教机</div>
-              <div>构行业内的中小型投资,与市场上的同行相比,Blue的投</div>
-              <div>资成本相对更低,约节省25%的成本。</div>
+              <div>卜鲁卜鲁亲子游泳( Blue Blue Baby Swimming)属于国际</div>
+              <div>专业游泳早教机构行业内的中小型投资,与市场上的同行</div>
+              <div>相比,Blue Blue的投资成本相对更低,约节省40%的成本。</div>
             </div>
             <div className="card-2">
-              <div>中小型机构的市场把控度较高,经营管理更加便捷灵活,</div>
-              <div>可有效减少经营压力。</div>
+	<div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>
+              <div>成本更低</div>
             </div>
           </div>
           <div className="reward">
             <div className="card-3">
-              <div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>
-              <div>成本更低</div>
+              <div>中小型机构的市场把控度较高,经营管理更加便捷灵活,</div>
+              <div>可有效减少经营压力。</div>
             </div>
             <div className="card-4">
               <div>中小型机构经营成本较低，利润率更高，投资回报率高。</div>

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import Slider, { Range } from "rc-slider";
 import "rc-slider/assets/index.css";
 import Modal from "./Modal";
@@ -83,21 +83,17 @@ class ManageSystem extends React.Component {
                   <h3>四大端口</h3>
                   <div className="txt">
                     <div className="t1">
-                      Blue独立研发业內首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化
+                      Blue Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集
                     </div>
-                    <div className="t2">管理系统。</div>
+                    <div className="t2">成化管理系统。</div>
                     <div className="t1">
-                      Blue集成化管理系统分为四大部分,分别是会员端、顾问端、教练端、后台管理端,四大端口各
+                      Blue Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相
                     </div>
-                    <div className="t2">
-                      司其职、相辅相成,保持整个系统正常运作。
-                    </div>
+                    <div className="t2">成，保持整个系统的正常流程运作。</div>
                     <div className="t1">
-                      Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性,为商家提供日常运营、有序管理
+                      Blue Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序
                     </div>
-                    <div className="t2">
-                      的保障,为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
-                    </div>
+                    <div className="t2">管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。</div>
                     <div
                       className="btn"
                       onClick={() => {
@@ -154,7 +150,7 @@ class ManageSystem extends React.Component {
                   <h3>顾问端</h3>
                   <div className="txt">
                     <div className="t1">
-                      顾问端主要用于会员与非会员的关系维护等，方便顾问及时跟进动态，更好的服务于客户
+                      顾问端主要用于会员与非会员的关系维护等，方便顾问及时跟进动态，更好的服务于客户。
                     </div>
                   </div>
                 </div>
@@ -166,8 +162,8 @@ class ManageSystem extends React.Component {
                   <div className="divider" />
                   <h3>后台管理端</h3>
                   <div className="txt">
-                    <div className="t1">
-                      后台管理端起总体统筹作用，为整个系统的正常循环运行做好基础的筹备工作
+                    <div className="t2">
+                      后台管理端起总体统筹作用，为整个系统的正常循环运行做好基础的筹备工作。
                     </div>
                   </div>
                 </div>

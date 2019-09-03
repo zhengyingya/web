@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Swiper from "react-id-swiper";
 import { createPortal } from "react-dom";
 import classnames from "classnames";
@@ -125,19 +125,18 @@ class Advantage extends React.Component {
                   <h2>STRONG TEACHERS</h2>
                   <h2>TEACHING</h2>
                   <h2 className="bt30">PROFESSTION</h2>
-                  <div className="txt1">雄厚师资</div>
-                  <div className="txt1 bt">专业教学</div>
+                  <div className="txt1">雄厚师资&nbsp;&nbsp;&nbsp;&nbsp;专业教学</div>
+                  <div className="txt1 bt"></div>
 
                   <div className="txt2">
-                    Blue亲子游泳由 Waterwise Perth Swim
-                    School创始人、澳大利亚婴幼儿水中安全教育专家 Stacy
-                    Gower担任总导师，由
-                    ASCTA(澳大利亚游泳教练和教师最高机构)认证、
-                    AUSTSWIM游泳技能专业评审员
-                    WendyMcfarlane担任技术培训指导，带领拥有二十余年教学实战经验的专业团队，根据
-                    AUSTSWIM游泳与水安全教育的行业标准，培养符合国际标准的水中安全教育教学与婴幼儿游泳的教练员,结合中国婴幼儿生理与心理特征,优化中国水中安全教育教学体系，提升教练员专业技能,掌握不同年齡阶段的水中教学模式,不断提升水中培
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blue Blue亲子游泳的教练通过世界上最大的游泳教学及救生组织STA的培训和认证，是英国游泳教练协会的成员，拥有专为婴幼儿量身定制课程计划、独创因材施教的教学方法、灵活应变的教学经验等能力。Blue Blue亲子游泳总教练Julie-Ann James茱莉安·詹姆斯是英国婴幼儿游泳教学领域的先锋，拥有30余年的游泳教学经验及6项STA任教资格证书，为广大教练员和学员们提供专业的亲子游泳
                   </div>
-                  <div className="txt3">训技能，完善教学体系。</div>
+	  <div className="txt3">
+	    教学及救生培训。
+	  </div>
+                  <div className="txt3">
+	    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;历经多年发展，Blue Blue始终立足实际、放眼国际，于2018年引进澳洲四十余年的高标准水中教育体系，根据AUSTSWIM游泳与水安全教育的行业标准，开发基于中国婴幼儿生理与心理特征的水中安全教育教学体系，培养符合国际标准的水中安全教育教学与婴幼儿游泳的教练员，结合提升教练员专业技能，掌握不同年龄阶段的水中教学模式，不断提升水中培训技能，持续完善教学体系。
+	  </div>
                 </div>
                 <div className="btn-close" onClick={this.onCancel} />
               </div>
@@ -165,13 +164,12 @@ class Advantage extends React.Component {
                 <div className="border">
                   <h2>TEACHING</h2>
                   <h2 className="bt30">SYSTEM</h2>
-                  <div className="txt1 bt">教学体系</div>
+	  <div className="txt1">八大体系&nbsp;&nbsp;&nbsp;&nbsp;六大分阶</div>
+                  <div className="txt1 bt"></div>
                   <div className="txt2">
-                    Blue( Cheering
-                    Swimming)以澳洲高标准水中教育体系为向导,以专业自救与水中教育为准则,根据中国婴幼儿的生理发育、心理特征与行为模式,构建科学专业的八大递进式课程体系,精细划分六个技能阶段,配以安全创新的多样化教具,辅以基础、社交、环境适应、闭气反射等六大维度的全方位教学评分体系,动态跟踪教学成效,提升教学质量,协以技能认定升阶考试,考核教
-                    学成果,致力于让每一位
+                    Blue Blue亲子游泳以专业自救与水中教育为内核，根据中国婴幼儿的生理发育、心理特征与行为模式，构建科学专业的八大递进式课程体系，精细划分六个技能阶段，配以安全创新的多样化教具，辅以基础、社交、环境适应、闭气反射等六大维度的全方位教学评分体系，动态跟踪教学成效，提升教学质量，协以技能认定升阶考试，考核教学成果，
                   </div>
-                  <div className="txt3">学员都学有成效。</div>
+                  <div className="txt3">致力于让每一位学员都学有成效。</div>
                   <div className="btn-close" onClick={this.onCancel} />
                 </div>
               </div>
@@ -200,27 +198,26 @@ class Advantage extends React.Component {
                   <h2>ADVANCED EQUIPMENT</h2>
                   <h2>COMFORTABLE</h2>
                   <h2 className="bt30"> ENVIRONMENT</h2>
-                  <div className="txt1">先进设备</div>
-                  <div className="txt1 bt">舒适环境</div>
-                  <div className="txt3 bt5"> (1)P恒温泳池</div>
+                  <div className="txt1">先进设备&nbsp;&nbsp;&nbsp;&nbsp;舒适环境</div>
+	  <div className="txt1 bt"></div>
+                  <div className="txt3 bt5"> (1)VIP恒温泳池</div>
                   <div className="txt2">
-                    泳池水温恒定于32-34°C，采用世界先进的德国进口铜银离子水处理设备，24小时双重注排水循环，每月定期
-                    检测水质并公示水质检测报告，以
+                    泳池水温恒定于32-34℃，采用世界先进的德国进口铜银离子水处理设备，24小时双重注排水循环，每月定期检测水质并公示水质检测报告，以
                   </div>
                   <div className="txt3">保证水质安全。</div>
                   <div className="txt3 bt5"> (2)人性化设计</div>
                   <div className="txt2">
-                    不同于大多数机构的公共浴室，Blue开设专用的独立亲子浴室，保护隐私更自在;开设独立母婴室，方便母婴哺乳及小宝休憩，让客户舒适放松无拘束。
+                    开设专用的独立亲子浴室，有别于大多数机构的公共浴室，独立亲子浴室能够保护隐私更自在；开设独立母婴室，方便母婴哺乳及小宝休憩，让
                   </div>
-                  <div className="txt3" />
-                  <div className="txt3 bt5"> (3)恒温除湿系统</div>
+                  <div className="txt3" >客户舒适放松无拘束。</div>
+                  <div className="txt3 bt5"> (3)恒温除湿环境</div>
                   <div className="txt2">
-                    室内安置高效除湿系统，保持适合体感都温度与湿度循环净化室内空气，打造恒温恒湿、洁净清新的
+                    室内安置高效除湿系统，保持适合体感的温度与湿度，循环净化室内空气，打造恒温恒湿、洁净清新
                   </div>
-                  <div className="txt3">母婴舒适环境。</div>
+                  <div className="txt3">的母婴舒适环境。</div>
                   <div className="txt3 bt5"> (4)温馨风格</div>
                   <div className="txt2">
-                    全室装修采用北欧简约温馨风，配以个性化装饰，辅以贴心精致的服努，营造温暖和睦的家庭氛围，
+                    全室装修采用北欧简约温馨风，配以个性化装饰，辅以贴心精致的服务，遵循人性化设计原则，注重人体舒适化感受，营造温暖和睦的家庭氛围，
                   </div>
                   <div className="txt3">提供宾至如归的客户关怀。</div>
                   <div className="btn-close" onClick={this.onCancel} />
@@ -250,11 +247,17 @@ class Advantage extends React.Component {
                   <h2 className="bt30">SYSTEM</h2>
                   <div className="txt1 bt">Blue集成化管理系统</div>
                   <div className="txt2">
-                    Blue独立研发业内首套会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化管理系统。Blue根据课程设定需要和个性化管理需求,将集成化管理系统分为四大部分,分别是会员端、顾问端、教练端
-                    后台管理端,每块对应着不同的功能,四大端口各司其
-                    职、相辅相成,保持整个系统的正常流程运作。Blue集成化管理系统的实用性、便捷性、高效性和灵活性,为商家提供日常运营、有序管理的保障,为会员带来更方便快捷的约课操作和更优质舒心
+                    Blue Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化
+	  </div>
+	  <div className="txt3">管理系统。</div>
+	  <div className="txt2">
+	    Blue Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相成，保持整个系统
+	  </div>
+	  <div className="txt3">的正常流程运作。</div>
+	  <div className="txt2">
+	    Blue Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序管理的保障，为会员带来更方便快捷的约课操作和更优质
                   </div>
-                  <div className="txt3">的服务体验。</div>
+                  <div className="txt3">舒心的服务体验。</div>
                   <div className="btn-close" onClick={this.onCancel} />
                 </div>
               </div>

@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import "./About.scss";
 
 class About extends React.Component {
@@ -18,39 +18,29 @@ class About extends React.Component {
                 <h1>ABOUT US</h1>
                 <h2>关于Blue</h2>
                 <h3>
-                  国际水育品牌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;水安全教育倡导者
+                  家庭式亲子游泳倡导者&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;专注亲子 精致服务
                 </h3>
                 <div className="divider" />
                 <div className="txt">
                   <div className="t1">
-                    Blue亲子游泳(Cheering Swimming
-                    )源自澳洲的国际水育品牌，是澳大利亚知名游泳学校
+	    Blue Blue亲子游泳中心成立于2012年，源自英国的国际水育品牌，获得世界上最大的游泳教学
                   </div>
                   <div className="t1">
-                    Waterwise perth swim school
-                    首次入驻中国的独立品牌，获得经SO认证的水中安全教育
-                  </div>
-                  <div className="t1">
-                    机构AUSTSWIM (澳大利亚国家游泳和水上安全协会)的专业认证,
-                    由澳洲婴幼儿游泳教练
+	    及救生组织STA（Swimming Teachers’ Association）的专业认证，是浙江省内首家恒温亲子
                   </div>
                   <div className="t2">
-                    专业认证机构Pediaswim
-                    资深水育专家提供安全、有效、乐趣、独立的教学支持。
+                    游泳中心，也是联合国儿童基金会母爱10平方的首批会员。
                   </div>
                   <div className="t1">
-                    Blue始终践行水安全文化的使命,
-                    致力于婴幼儿自救防溺与水上教育事业, 基于澳洲四十余
+	    Blue Blue亲子游泳始终以“家庭式亲子游泳倡导者”为宗旨，以“专注亲子，精致服务”
                   </div>
                   <div className="t1">
-                    年的高标准水中教育体系,
-                    专注为中国婴幼儿研发定制“六个阶段、八大体系”的游泳早教课
+	    为准则，以“社区型便捷模式”为发展要领，以“科学安全、教学实效”至上，个性化定制
                   </div>
                   <div className="t1">
-                    程,
-                    竭诚为0-7周岁儿童提供专业规范、科学安全、趣味有效的亲子互动游泳课、独立救生技
+	    研发“六个阶段、八大体系”的游泳早教课程，竭诚为0-7周岁儿童提供专业规范、科学安
                   </div>
-                  <div>能课、专业泳姿训练课等国际水育课程</div>
+                  <div>全、趣味有效的亲子互动游泳课、独立救生技能课、专业泳姿训练课等专业水育课程。</div>
                 </div>
               </div>
             </div>

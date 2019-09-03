@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import Swiper from "react-id-swiper";
 import classnames from "classnames";
 import { createPortal } from "react-dom";
@@ -175,7 +175,7 @@ class Course extends React.Component {
                 Blue以科学规范为原则,以相辅相成为内核,构建递进式八大课程体系。
               </div>
               <div className="txt2">
-                Based on scientifc norms, Cheering Swimming has constructed
+                Based on scientifc norms, Blue Blue Baby Swimming has constructed
                 eight major
               </div>
               <div className="txt2">
@@ -426,14 +426,10 @@ class Course extends React.Component {
                 src={require("../assert/course/score.png")}
               />
               <div className="txt1">
-                Blue以科学规范为原则,以相辅相成为内核,构建递进式八大课程体系。
+                Blue全方位教学评分体系，提升教学质量，动态跟踪教学成效。
               </div>
               <div className="txt2">
-                Based on scientifc norms, Cheering Swimming has constructed
-                eight major
-              </div>
-              <div className="txt2">
-                courses system, which supplement each other.
+                All-round Teaching Scoring System
               </div>
               <div
                 className="down-btn"

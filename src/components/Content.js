@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import Slider from "react-slick";
 import About from "./About";
 import Advantage from "./Advantage";
@@ -141,7 +141,7 @@ class Content extends React.Component {
             <div className="qrcode" />
             <div className="txt">微信关注Blue，了解更多</div>
             <div className="txt-en">
-              Follow Cheering Swimming on wechat and understand more.
+              Follow Blue Blue Baby Swimming on wechat and understand more.
             </div>
           </div>
           <div className="item about-page-1">
