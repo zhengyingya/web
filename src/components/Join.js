@@ -204,26 +204,16 @@ class Join extends React.Component {
               </div>
               <div className="bottom mb">
                 <li>01</li>
-                <span>市场推广活动</span>
+                <span>初步沟通，了解品牌情况</span>
                 <div className="arrow" />
                 <li>02</li>
-                <span>管理运营指导</span>
+                <span>填写加盟意向申请表</span>
                 <div className="arrow" />
                 <li>03</li>
-                <span>工作流程支持</span>
+                <span>双方意向确认</span>
                 <div className="arrow" />
                 <li>04</li>
-                <span>系统升级维护</span>
-              </div>
-              <div className="bottom">
-                <li>05</li>
-                <span>定期培训指导</span>
-                <div className="arrow" />
-                <li>06</li>
-                <span>教案教具更新</span>
-                <div className="arrow" />
-                <li>07</li>
-                <span>品牌宣传支持</span>
+                <span>签署加盟合同</span>
               </div>
             </div>
           </Modal>
@@ -301,16 +291,26 @@ class Join extends React.Component {
               </div>
               <div className="bottom mb">
                 <li>01</li>
-                <span>初步沟通，了解品牌情况</span>
+                <span>市场推广活动</span>
                 <div className="arrow" />
                 <li>02</li>
-                <span>填写加盟意向申请表</span>
+                <span>管理运营指导</span>
                 <div className="arrow" />
                 <li>03</li>
-                <span>双方意向确认</span>
+                <span>工作流程支持</span>
                 <div className="arrow" />
                 <li>04</li>
-                <span>签署加盟合同</span>
+                <span>系统升级维护</span>
+              </div>
+              <div className="bottom">
+                <li>05</li>
+                <span>定期培训指导</span>
+                <div className="arrow" />
+                <li>06</li>
+                <span>教案教具更新</span>
+                <div className="arrow" />
+                <li>07</li>
+                <span>品牌宣传支持</span>
               </div>
             </div>
           </Modal>
