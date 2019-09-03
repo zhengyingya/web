@@ -1,0 +1,151 @@
+@import "../animate.scss";
+
+.container-content {
+  flex: 1;
+  .ov {
+    overflow: auto;
+  }
+  .item {
+    display: flex !important;
+    height: 100vh;
+    min-height: 780px;
+    background: #ccc;
+    z-index: 100;
+  }
+  .slick-vertical {
+    // height: 100vh;
+    .slick-slide {
+      border: 0px;
+    }
+    // > .slick-list {
+    //   height: 100vh !important;
+    // }
+  }
+  .slick-arrow {
+    display: none !important;
+  }
+
+  .home-page-1 {
+    width: 100%;
+    background: url(../assert/home/home-bg.png);
+    background-size: 100% 100%;
+    padding: 0 8%;
+    box-sizing: border-box;
+    .left {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      height: 100%;
+      justify-content: center;
+      // background: red;
+      text-align: left;
+    }
+    .right {
+      flex: 1;
+      height: 100%;
+      // background: green;
+    }
+    .right-wrap {
+      height: 100%;
+      margin-right: 20%;
+      margin-top: -20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: center;
+    }
+    .big-title {
+      display: inline-block;
+      width: 100%;
+      // height: auto!important;
+      min-height: 1px;
+      margin-bottom: 20px;
+    }
+    .small-title {
+      width: 65%;
+      min-height: 1px;
+      margin-bottom: 35px;
+    }
+    .txt {
+      font-size: 22px;
+      color: #fff;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+    .ball {
+      width: 12%;
+      min-height: 1px;
+    }
+    .people {
+      display: flex;
+      width: 90%;
+      min-height: 1px;
+    }
+    .board {
+      width: 25%;
+      min-height: 1px;
+    }
+    .anim-fadein {
+      animation: fadeIn 1.5s;
+    }
+    .anim-fadein-delay20 {
+      animation: delayIn 1.5s;
+    }
+    .anim-fadein-delay {
+      animation: delayIn 1.5s, float 2s linear 1.5s alternate infinite;
+    }
+  }
+
+  .home-page-2 {
+    flex-direction: column;
+    width: 100%;
+    background: url(../assert/home/qrcode-bg.png);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    .qrcode {
+      width: 150px;
+      height: 150px;
+      background: #fff;
+      margin-bottom: 20px;
+      background: url(../assert/about/qrcode.png);
+      background-size: 100% 100%;
+    }
+    .txt,
+    .txt-en {
+      font-size: 18px;
+      color: #fff;
+      margin-bottom: 10px;
+    }
+    .txt-en {
+      font-size: 16px;
+    }
+  }
+
+  .about-page-1 {
+    flex-direction: column;
+    width: 100%;
+    background: url(../assert/about/bg.png);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  }
+}
+
+@keyframes delayIn {
+  0% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  25% {
+    opacity: 0;
+    transform: translateY(35px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

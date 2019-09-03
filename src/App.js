@@ -1,26 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Head from "./components/Head";
+import Content from "./components/Content";
+import logo from "./logo.svg";
+import "./App.css";
+import "./slick.min.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      cIndex: 0
+    };
+  }
+
+  onRef = node => {
+    this.slider = node;
+  };
+
+  slickGoTo = index => {
+    this.slider.slickGoTo(index);
+  };
+
+  changeIndex = index => {
+    this.setState({
+      cIndex: index
+    });
+  };
+
+  render() {
+    return (
+      <div className="App">
+        <Head index={this.state.cIndex} slickGoTo={this.slickGoTo} />
+        <Content
+          cIndex={this.state.cIndex}
+          changeIndex={this.changeIndex}
+          onRef={this.onRef}
+        />
+      </div>
+    );
+  }
 }
 
 export default App;

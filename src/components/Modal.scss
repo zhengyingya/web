@@ -1,0 +1,40 @@
+.wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 10002;
+}
+
+.overlayer {
+  width: 100vw;
+  height: 100vh;
+  background: #000;
+  animation: overlayer 0.3s forwards;
+}
+
+.container {
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  animation: container 0.3s forwards;
+}
+
+@keyframes overlayer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.3;
+  }
+}
+
+@keyframes container {
+  from {
+    transform: translateX(-50%) scale(0, 0);
+  }
+  to {
+    transform: translateX(-50%) scale(1, 1);
+  }
+}

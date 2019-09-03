@@ -1,0 +1,429 @@
+.page-join {
+  height: 100%;
+  overflow: auto;
+  .footer {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background: url(../assert/join/foot-bg.png);
+    background-size: 100% 100%;
+    padding: 60px 0;
+    box-sizing: border-box;
+    .left {
+      display: flex;
+      flex: 1;
+      justify-content: flex-end;
+      .tab {
+        width: 240px;
+        text-align: left;
+      }
+      .tab2 {
+        width: 380px;
+        text-align: left;
+      }
+      dd {
+        color: #fff;
+        margin-bottom: 30px;
+      }
+    }
+    .divider {
+      width: 2px;
+    }
+    .right {
+      position: relative;
+      flex: 1;
+      .top {
+        position: relative;
+        display: flex;
+        width: 620px;
+        margin-bottom: 50px;
+        padding-left: 60px;
+      }
+      .bottom {
+        width: 420px;
+        color: #fff;
+        text-align: center;
+        margin-left: 180px;
+      }
+      .qq {
+        width: 35px;
+        height: 35px;
+        background: url(../assert/join/qq.png);
+        background-size: 100% 100%;
+        margin-right: 30px;
+      }
+      .wechat {
+        position: relative;
+        width: 35px;
+        height: 35px;
+        background: url(../assert/join/wechat.png);
+        background-size: 100% 100%;
+        margin-right: 30px;
+        cursor: pointer;
+        &:hover {
+          .qrcode {
+            display: block;
+          }
+        }
+        .qrcode {
+          display: none;
+          position: absolute;
+          width: 150px;
+          height: 150px;
+          background: #fff;
+          bottom: 50px;
+          left: -55px;
+          background: url(../assert/about/qrcode.png);
+          background-size: 100% 100%;
+        }
+      }
+      .webo {
+        width: 35px;
+        height: 35px;
+        background: url(../assert/join/webo.png);
+        background-size: 100% 100%;
+      }
+      .logo {
+        position: absolute;
+        top: -10px;
+        right: 120px;
+        width: 120px;
+        height: 50px;
+        background: url(../assert/join/logo.png);
+        background-size: 100% 100%;
+      }
+    }
+  }
+}
+.page-join-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 4950px;
+  background: url(../assert/join/bg.png);
+  background-size: 100% 100%;
+  > .img-i1 {
+    width: 100%;
+    min-height: 1px;
+  }
+  > .divider {
+    width: 53px;
+    height: 5px;
+    background: url(../assert/about/divider.png);
+    background-size: 100% 100%;
+  }
+  .prospect {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .border-1 {
+    width: 480px;
+    height: 410px;
+    padding: 30px 30px 30px 30px;
+    // box-sizing: border-box;
+    background: url(../assert/join/border1.png);
+    background-size: 100% 100%;
+    font-size: 12px;
+    text-align: left;
+  }
+  .img-i2,
+  .img-i3,
+  .img-i4,
+  .img-i5 {
+    width: 100%;
+    min-height: 1px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+
+  .condition {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    .border {
+      position: absolute;
+      width: 100%;
+      height: 360px;
+      bottom: -70px;
+      z-index: 1;
+    }
+    .condition-cnt {
+      width: 75%;
+      justify-content: space-between;
+      box-sizing: border-box;
+      display: flex;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      width: 230px;
+      justify-content: flex-start;
+      z-index: 10;
+      border-radius: 5px;
+      padding: 40px 20px 20px 20px;
+      &:hover {
+        // width: 230px;
+        // height: 300px;
+        // background: url(../assert/join/card-bg.png);
+        // background-size: 100% 100%;
+        background: #0496f2;
+      }
+      .icon-1 {
+        width: 162px;
+        height: 146px;
+      }
+      > div {
+        text-align: left;
+        font-size: 14px;
+      }
+      > .txt1 {
+        font-size: 20px;
+        color: #0496f2;
+        font-weight: 900;
+        margin-top: 10px;
+      }
+      > .txt2 {
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      > .txt3 {
+        text-align: justify;
+        text-align-last: justify;
+      }
+    }
+  }
+
+  .process {
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+    .card {
+      position: relative;
+      display: flex;
+      width: 340px;
+      padding: 0 20px;
+      box-sizing: border-box;
+      .icon {
+        width: 120px;
+        height: 140px;
+        z-index: 10;
+      }
+      .txt {
+        font-size: 20px;
+        font-weight: 800;
+        text-align: left;
+        color: #fff;
+        z-index: 10;
+        margin-top: 65px;
+        margin-right: 15px;
+        line-height: 30px;
+      }
+      .btn-right {
+        width: 30px;
+        height: 30px;
+        margin-top: 80px;
+        background: url(../assert/join/btn-right.png);
+        background-size: 100% 100%;
+        z-index: 10;
+        cursor: pointer;
+      }
+      .bg {
+        position: absolute;
+        width: 340px;
+        left: 0;
+        bottom: -20px;
+        z-index: 1;
+      }
+    }
+  }
+
+  .support {
+    width: 75%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    .card {
+      position: relative;
+      display: flex;
+      width: 760px;
+      height: 170px;
+      background: url(../assert/join/border3.png);
+      background-size: 100% 100%;
+      padding-left: 120px;
+      // padding-top: 50px;
+      margin-left: 80px;
+      box-sizing: border-box;
+      text-align: left;
+      .icon {
+        position: absolute;
+        width: 200px;
+        left: -80px;
+        top: -10px;
+      }
+      .txt-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .txt1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #0496f2;
+        margin-bottom: 15px;
+      }
+      .txt2 {
+        font-size: 14px;
+      }
+    }
+  }
+  .support-r {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+    .card {
+      position: relative;
+      display: flex;
+      width: 760px;
+      height: 170px;
+      background: url(../assert/join/border3.png);
+      background-size: 100% 100%;
+      padding-left: 50px;
+      // padding-top: 50px;
+      margin-right: 80px;
+      box-sizing: border-box;
+      text-align: left;
+      .icon {
+        position: absolute;
+        width: 200px;
+        right: -80px;
+        top: -10px;
+      }
+      .txt-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .txt1 {
+        font-size: 20px;
+        font-weight: 900;
+        color: #0496f2;
+        margin-bottom: 15px;
+      }
+      .txt2 {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .img6 {
+    width: 75%;
+    margin-top: 80px;
+  }
+
+  .reward {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 40px;
+    .card,
+    .card-2,
+    .card-3,
+    .card-4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 120px;
+      box-sizing: border-box;
+      width: 500px;
+      height: 120px;
+      background: url(../assert/join/num1.png);
+      background-size: 100% 100%;
+      font-size: 14px;
+      text-align: left;
+    }
+    .card-2 {
+      background: url(../assert/join/num2.png);
+      background-size: 100% 100%;
+    }
+    .card-3 {
+      background: url(../assert/join/num3.png);
+      background-size: 100% 100%;
+    }
+    .card-4 {
+      background: url(../assert/join/num4.png);
+      background-size: 100% 100%;
+    }
+  }
+}
+
+.step-modal {
+  position: relative;
+  width: 1000px;
+  height: 320px;
+  background: #0496f2;
+  border-radius: 10px;
+  padding-top: 20px;
+  .btn-close {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 30px;
+    top: 30px;
+    background: url(../assert/advantage/close.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+  }
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    .icon {
+      width: 100px;
+    }
+    .txt {
+      font-size: 22px;
+      color: #f8b42d;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+  }
+  .mt {
+    margin-top: 26px;
+  }
+  .bottom {
+    display: flex;
+    color: #fff;
+    height: 36px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    > li {
+      display: block;
+      width: 36px;
+      height: 36px;
+      line-height: 36px;
+      text-align: center;
+      border-radius: 18px;
+      background: #fff;
+      color: #0496f2;
+      font-weight: 800;
+      margin-right: 5px;
+    }
+    .arrow {
+      width: 30px;
+      height: 20px;
+      background: url(../assert/join/right.png);
+      background-size: 100% 100%;
+      margin: 0 30px;
+    }
+  }
+  .mb {
+    margin-bottom: 50px;
+  }
+}
