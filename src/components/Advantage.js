@@ -70,7 +70,7 @@ class Advantage extends React.Component {
             <div className="txt">
               <div>八大课程体系</div>
               <div>六大技能阶段</div>
-              <div>全方位平方体系</div>
+              <div>全方位评分体系</div>
             </div>
           </div>
         </div>
