@@ -63,7 +63,7 @@ const CourseContent = ({ mIndex, index }) => {
     <div className="wrap">
       <img
         className="img"
-        src={require(`../assert/course/modal-img${index}.png`)}
+        src={require(`../assert/course/modal-img${index}.jpg`)}
       />
       <div className="mid">
         <div className="txt1">{TXT[mIndex].txt1}</div>
@@ -267,7 +267,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a1.png")}
+                  src={require("../assert/course/a1.jpg")}
                 />
                 {cIndex !== 0 && <div className="gray-bg" />}
                 <div className="txt1">小海星班</div>
@@ -287,7 +287,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a2.png")}
+                  src={require("../assert/course/a2.jpg")}
                 />
                 {cIndex !== 1 && <div className="gray-bg" />}
                 <div className="txt1">小章鱼班</div>
@@ -307,7 +307,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a3.png")}
+                  src={require("../assert/course/a3.jpg")}
                 />
                 {cIndex !== 2 && <div className="gray-bg" />}
                 <div className="txt1">海马班</div>
@@ -327,7 +327,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a4.png")}
+                  src={require("../assert/course/a4.jpg")}
                 />
                 {cIndex !== 3 && <div className="gray-bg" />}
                 <div className="txt1">海龟班</div>
@@ -347,7 +347,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a5.png")}
+                  src={require("../assert/course/a5.jpg")}
                 />
                 {cIndex !== 4 && <div className="gray-bg" />}
                 <div className="txt1">海豚班</div>
@@ -366,7 +366,7 @@ class Course extends React.Component {
               >
                 <img
                   className="course-item"
-                  src={require("../assert/course/a6.png")}
+                  src={require("../assert/course/a6.jpg")}
                 />
                 {cIndex !== 5 && <div className="gray-bg" />}
                 <div className="txt1">鲨鱼班</div>

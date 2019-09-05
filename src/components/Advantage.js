@@ -119,7 +119,7 @@ class Advantage extends React.Component {
               <div className="wrap">
                 <img
                   className="img"
-                  src={require("../assert/advantage/i1.png")}
+                  src={require("../assert/advantage/i1.jpg")}
                 />
                 <div className="border">
                   <h2>STRONG TEACHERS</h2>
@@ -159,7 +159,7 @@ class Advantage extends React.Component {
               <div className="wrap">
                 <img
                   className="img"
-                  src={require("../assert/advantage/i2.png")}
+                  src={require("../assert/advantage/i2.jpg")}
                 />
                 <div className="border">
                   <h2>TEACHING</h2>
@@ -192,7 +192,7 @@ class Advantage extends React.Component {
               <div className="wrap">
                 <img
                   className="img"
-                  src={require("../assert/advantage/i3.png")}
+                  src={require("../assert/advantage/i3.jpg")}
                 />
                 <div className="border">
                   <h2>ADVANCED EQUIPMENT</h2>
@@ -240,7 +240,7 @@ class Advantage extends React.Component {
               <div className="wrap">
                 <img
                   className="img"
-                  src={require("../assert/advantage/i4.png")}
+                  src={require("../assert/advantage/i4.jpg")}
                 />
                 <div className="border">
                   <h2>MANAGEMENT</h2>

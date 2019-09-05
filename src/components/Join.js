@@ -36,19 +36,19 @@ class Join extends React.Component {
       <div className="page-join" onWheel={this.onWheel}>
         <div className="page-join-bg">
           {/* <img className="bg" src={require("../assert/join/bg.png")} /> */}
-          <img className="img-i1" src={require("../assert/join/i1.png")} />
+          <img className="img-i1" src={require("../assert/join/i1.jpg")} />
           <h2 style={{ marginTop: "50px" }}>加盟前景</h2>
           <div className="divider" />
           <h3>JOINING PROSPECTS</h3>
           <div className="prospect">
             <div className="border-1">
-              <img className="img-i2" src={require("../assert/join/i2.png")} />
+              <img className="img-i2" src={require("../assert/join/i2.jpg")} />
               <span>
                 国家二胎政策全面开放，新生儿数量在未来几年将以平均2000多万的出生量持续增长，联合国测算，2020年中国婴幼儿数量将达2.61亿峰值。
               </span>
             </div>
             <div className="border-1">
-              <img className="img-i3" src={require("../assert/join/i3.png")} />
+              <img className="img-i3" src={require("../assert/join/i3.jpg")} />
               <span>
                 家庭教育观念的转变，越来越重视早教与游泳运动，现代父母对孩子早教投入较大，愿意为孩子的健康成长投资，亲子游泳项目对婴幼儿身心发展的好处也得到普遍认可。
               </span>
@@ -56,13 +56,13 @@ class Join extends React.Component {
           </div>
           <div className="prospect">
             <div className="border-1">
-              <img className="img-i4" src={require("../assert/join/i4.png")} />
+              <img className="img-i4" src={require("../assert/join/i4.jpg")} />
               <span>
                 婴幼儿亲子游泳属于早教行业的新兴行业，是一个刚性增长的朝阳产业，呈现快速发展的上升趋势。
               </span>
             </div>
             <div className="border-1">
-              <img className="img-i5" src={require("../assert/join/i5.png")} />
+              <img className="img-i5" src={require("../assert/join/i5.jpg")} />
               <span>
                 婴幼儿早教行业连续多年被推动选为最具发展潜力且投资回报率较高的行业。投资成本相对较低，回本周期短，利润较高，是极佳的中小型投资首选。
               </span>
@@ -417,7 +417,7 @@ class Join extends React.Component {
             </div>
           </div>
 
-          <img className="img6" src={require("../assert/join/i6.png")} />
+          <img className="img6" src={require("../assert/join/i6.jpg")} />
 
           <h2 style={{ marginTop: "80px" }}>投资回报可观</h2>
           <div className="divider" />
