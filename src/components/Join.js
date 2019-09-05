@@ -11,7 +11,6 @@ class Join extends React.Component {
   };
 
   onWheel = e => {
-    console.log(e.currentTarget.scrollTop, e.currentTarget);
     if (
       !this.isScroll &&
       e.currentTarget.scrollTop === 0 &&
@@ -86,8 +85,10 @@ class Join extends React.Component {
                 />
                 <div className="txt1">ENTHUSIASM</div>
                 <div className="txt2">热情</div>
-                <div>热爱幼儿游泳教育行业，认同卜鲁卜鲁亲子游泳(Blue Blue Baby Swimming)的教育理念，有志于长期
-                发展亲子游泳早教事业</div>
+                <div>
+                  热爱幼儿游泳教育行业，认同卜鲁卜鲁亲子游泳(Blue Blue Baby
+                  Swimming)的教育理念，有志于长期 发展亲子游泳早教事业
+                </div>
               </div>
               <div className="card">
                 <img
@@ -106,7 +107,10 @@ class Join extends React.Component {
                 />
                 <div className="txt1">OPERATION</div>
                 <div className="txt2">经营</div>
-                <div className="txt3">具有一定的经营管理能力，能够全身心投入经营管理，认同卜鲁卜鲁亲子游泳（Blue Blue Baby Swimming）的经营理念与管理规范，接受总部的</div>
+                <div className="txt3">
+                  具有一定的经营管理能力，能够全身心投入经营管理，认同卜鲁卜鲁亲子游泳（Blue
+                  Blue Baby Swimming）的经营理念与管理规范，接受总部的
+                </div>
                 <div>管理和指导。</div>
               </div>
               <div className="card">
@@ -337,8 +341,8 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">阶梯式专业培训支持</div>
                 <span className="txt2">
-                  岗位专项集中培训 | 教练专业培训 |
-                  区域培训师巡店指导 | 外教到店授课指导
+                  岗位专项集中培训 | 教练专业培训 | 区域培训师巡店指导 |
+                  外教到店授课指导
                 </span>
               </div>
             </div>
@@ -354,12 +358,10 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">信息管理系统支持</div>
                 <span className="txt2">
-                  自助约课系统的安装及使用 |
-                  信息管理系统的运用指导 | 各岗位端口的使用培训 | 
+                  自助约课系统的安装及使用 | 信息管理系统的运用指导 |
+                  各岗位端口的使用培训 |
                 </span>
-                <span className="txt2">
-                  约课系统升级维护
-                </span>
+                <span className="txt2">约课系统升级维护</span>
               </div>
             </div>
           </div>
@@ -374,10 +376,13 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">运营管理支持</div>
                 <span className="txt2">
-                  门店管理制度 | 岗位绩效管理制度 | 泳池水质管理手册 | 市场推广规划 |
-                  大型营销策划 |
+                  门店管理制度 | 岗位绩效管理制度 | 泳池水质管理手册 |
+                  市场推广规划 | 大型营销策划 |
                 </span>
-                <span className="txt2"> 月度福利活动 |大型营销策划 | 会员福利活动</span>
+                <span className="txt2">
+                  {" "}
+                  月度福利活动 |大型营销策划 | 会员福利活动
+                </span>
               </div>
             </div>
           </div>
@@ -391,10 +396,10 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">教学指导支持</div>
                 <span className="txt2">
-                  课程分阶与课程体系分解指导 | 课程内容支持及多元化更新 | 教案创新及教具升级 |
-                  
+                  课程分阶与课程体系分解指导 | 课程内容支持及多元化更新 |
+                  教案创新及教具升级 |
                 </span>
-	<span className="txt2"> 教学课程评分体系</span>
+                <span className="txt2"> 教学课程评分体系</span>
               </div>
             </div>
           </div>
@@ -409,8 +414,8 @@ class Join extends React.Component {
               <div className="txt-wrap">
                 <div className="txt1">品牌宣传支持</div>
                 <span className="txt2">
-                  品牌使用授权 | 品牌VI全套设计支持 | 品牌素材库支持 | 跨国际品牌联合
-                  | 专家讲座沙龙支持 | 
+                  品牌使用授权 | 品牌VI全套设计支持 | 品牌素材库支持 |
+                  跨国际品牌联合 | 专家讲座沙龙支持 |
                 </span>
                 <span className="txt2">自媒体、官网、知名媒体等互联网宣传</span>
               </div>
@@ -429,7 +434,7 @@ class Join extends React.Component {
               <div>相比,Blue Blue的投资成本相对更低,约节省40%的成本。</div>
             </div>
             <div className="card-2">
-	<div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>
+              <div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>
               <div>成本更低</div>
             </div>
           </div>

@@ -1,10 +1,11 @@
 ﻿import React, { Fragment } from "react";
 import Slider from "react-slick";
-import About from "./About";
-import Advantage from "./Advantage";
-import Course from "./Course";
-import ManageSystem from "./ManageSystem";
-import Join from "./Join";
+// import About from "./About";
+// import Advantage from "./Advantage";
+// import Course from "./Course";
+// import ManageSystem from "./ManageSystem";
+// import Join from "./Join";
+import LazyComponent from "./LazyComponents";
 import "./Content.scss";
 class Content extends React.Component {
   constructor(props) {
@@ -136,37 +137,93 @@ class Content extends React.Component {
               </Fragment>
             )}
           </div>
-          <div className="item home-page-2">
+          <div className="item">
             {""}
-            <div className="qrcode" />
-            <div className="txt">微信关注Blue，了解更多</div>
-            <div className="txt-en">
-              Follow Blue Blue Baby Swimming on wechat and understand more.
-            </div>
+            <LazyComponent
+              time={4000}
+              default={<div>loading</div>}
+              load={() => require("./Qrcode").default}
+            />
           </div>
           <div className="item about-page-1">
             {""}
-            <About cIndex={this.props.cIndex} />
-          </div>
-          <div className="item">
-            {""}
-            <Advantage cIndex={this.props.cIndex} />
-          </div>
-          <div className="item">
-            {""}
-            <Course cIndex={this.props.cIndex} />
-          </div>
-          <div className="item about-page-1">
-            {""}
-            <ManageSystem
-              cIndex={this.props.cIndex}
-              slickPrev={this.slickPrev}
-              slickNext={this.slickNext}
+            {/* <About cIndex={this.props.cIndex} /> */}
+            <LazyComponent
+              time={4000}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex
+              }}
+              load={() => require("./About").default}
             />
           </div>
           <div className="item">
             {""}
-            <Join cIndex={this.props.cIndex} slickPrev={this.slickPrev} />
+            <LazyComponent
+              time={4000}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex
+              }}
+              load={() => require("./Advantage").default}
+            />
+          </div>
+          <div className="item">
+            {""}
+            {/* <Course cIndex={this.props.cIndex} /> */}
+            <LazyComponent
+              time={5000}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex
+              }}
+              load={() => require("./Course").default}
+            />
+          </div>
+          <div className="item about-page-1">
+            {""}
+            {/* <ManageSystem
+              cIndex={this.props.cIndex}
+              slickPrev={this.slickPrev}
+              slickNext={this.slickNext}
+            /> */}
+            {/* <LazyComponent
+              time={3000}
+              render={() => {
+                let ManageSystem = require("./ManageSystem").default;
+                return (
+                  <ManageSystem
+                    cIndex={this.props.cIndex}
+                    slickPrev={this.slickPrev}
+                    slickNext={this.slickNext}
+                  />
+                );
+              }}
+            ></LazyComponent> */}
+
+            <LazyComponent
+              time={6000}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex,
+                slickPrev: this.slickPrev,
+                slickNext: this.slickNext
+              }}
+              load={() => require("./ManageSystem").default}
+            />
+          </div>
+          <div className="item">
+            {""}
+            {/* <Join cIndex={this.props.cIndex} slickPrev={this.slickPrev} /> */}
+            <LazyComponent
+              time={6200}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex,
+                slickPrev: this.slickPrev
+              }}
+              load={() => require("./Join").default}
+            />
           </div>
         </Slider>
       </div>
