@@ -97,18 +97,18 @@ class Content extends React.Component {
                   />
                   <img
                     className={`small-title ${this.props.cIndex === 0 &&
-                      "anim-fadein"}`}
+                      "anim-fadein-delay20"}`}
                     src={require("../assert/home/small-title.png")}
                   />
                   <div
                     className={`txt ${this.props.cIndex === 0 &&
-                      "anim-fadein"}`}
+                      "anim-fadein-delay20"}`}
                   >
                     国内首次开放加盟项目
                   </div>
                   <div
                     className={`txt ${this.props.cIndex === 0 &&
-                      "anim-fadein"}`}
+                      "anim-fadein-delay20"}`}
                   >
                     十大加盟理由 43项加盟支持
                   </div>
@@ -122,7 +122,7 @@ class Content extends React.Component {
                     />
                     <img
                       className={`people ${this.props.cIndex === 0 &&
-                        "anim-fadein-delay20"}`}
+                        "anim-fadein"}`}
                       src={require("../assert/home/people.png")}
                     />
                     <img

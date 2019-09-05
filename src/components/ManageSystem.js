@@ -62,7 +62,7 @@ class ManageSystem extends React.Component {
   hanleSliderChange = v => {
     console.log(v);
     this.setState({
-      left: -20 - (v * 850) / 100,
+      left: -20 - (v * 1000) / 100,
       sliderValue: v
     });
   };
@@ -83,17 +83,22 @@ class ManageSystem extends React.Component {
                   <h3>四大端口</h3>
                   <div className="txt">
                     <div className="t1">
-                      Blue Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集
+                      Blue
+                      Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集
                     </div>
                     <div className="t2">成化管理系统。</div>
                     <div className="t1">
-                      Blue Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相
+                      Blue
+                      Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相
                     </div>
                     <div className="t2">成，保持整个系统的正常流程运作。</div>
                     <div className="t1">
-                      Blue Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序
+                      Blue
+                      Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序
                     </div>
-                    <div className="t2">管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。</div>
+                    <div className="t2">
+                      管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
+                    </div>
                     <div
                       className="btn"
                       onClick={() => {
@@ -252,38 +257,184 @@ class ManageSystem extends React.Component {
                   <div className="line" style={{ left: `${left}px` }} />
                   <div className="des" style={{ left: `${left}px` }}>
                     <div className="it" style={{ marginLeft: "40px" }}>
-                      <img
+                      {/* <img
                         className="date"
-                        src={require("../assert/manage/date2.png")}
-                      />
-                      <div className="txt1">沟通合作</div>
-                      <div className="txt2">沟通合作</div>
-                    </div>
-                    <div className="it" style={{ width: "200px" }}>
-                      <img
-                        className="date"
-                        src={require("../assert/manage/date3.png")}
-                      />
-                      <div className="txt1">逐步构架</div>
+                        src={require("../assert/manage/date1.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">9</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2017</span>
+                        </div>
+                      </div>
+                      <div className="txt1">初步设想</div>
                       <div className="txt2">
-                        开发人员正式投入架构，开始逐步构建系统
+                        秉着“直观、便捷、自主”的初衷，提出创新开发一款约课系统的设想。
                       </div>
                     </div>
-                    <div className="it" style={{ width: "200px" }}>
-                      <img
+                    <div className="it">
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date2.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">10</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2017</span>
+                        </div>
+                      </div>
+                      <div className="txt1">沟通合作</div>
+                      <div className="txt2">
+                        与合作方洽谈签约，对理念、功能、约课机制、人性化需求等多方沟通。
+                      </div>
+                    </div>
+                    <div className="it" style={{ marginLeft: "10px" }}>
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date3.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">11</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2017</span>
+                        </div>
+                      </div>
+                      <div className="txt1">框架搭建</div>
+                      <div className="txt2">
+                        开发人员正式投入构架，开始逐步构建系统。
+                      </div>
+                    </div>
+                    <div className="it">
+                      {/* <img
                         className="date"
                         src={require("../assert/manage/date4.png")}
-                      />
-                      <div className="txt1">初步完成</div>
-                      <div className="txt2">沟通合作</div>
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">12</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2017</span>
+                        </div>
+                      </div>
+                      <div className="txt1">系统开发</div>
+                      <div className="txt2">
+                        在2017年12至2018年2月的近3个月中，约课系统初步构架完成，期间多次反复探讨各方可行性，把灵活的人为控制与科学客观的系统逻辑相结合，对系统整体作多次调整，系统初步建设完成。
+                      </div>
                     </div>
-                    <div className="it" style={{ width: "200px" }}>
-                      <img
+                    <div className="it" style={{ marginLeft: "10px" }}>
+                      {/* <img
                         className="date"
                         src={require("../assert/manage/date5.png")}
-                      />
-                      <div className="txt1">反复内测</div>
-                      <div className="txt2">沟通合作</div>
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">3</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2018</span>
+                        </div>
+                      </div>
+                      <div className="txt1">系统测试</div>
+                      <div className="txt2">
+                        在2018年3月至2018年5月期间，全体工作人员进行反复内部测试，通过每天全员多次测试提出需要改进之处，边由开发人员根据实际需求进行调整修改，并重新加入多项个性化需求。
+                      </div>
+                    </div>
+                    <div className="it">
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date6.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">6</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2018</span>
+                        </div>
+                      </div>
+                      <div className="txt1">试运行</div>
+                      <div className="txt2">
+                        选取部分家长试用，听取各方建议，由开发人员根据合理性与可行性原则进行功能增设与调整。
+                      </div>
+                    </div>
+                    <div className="it">
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date7.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">7</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2018</span>
+                        </div>
+                      </div>
+                      <div className="txt1">正式上线</div>
+                      <div className="txt2">
+                        筹备系统上线前期工作，正式上线系统。
+                      </div>
+                    </div>
+                    <div className="it" style={{ marginLeft: "10px" }}>
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date8.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">8</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2018</span>
+                        </div>
+                      </div>
+                      <div className="txt1">过渡更新</div>
+                      <div className="txt2">
+                        在2018年8月至10月期间，现有系统与新约课系统两套并行，会员端、顾问端、教练端、后台端同时并用，进行反复测试和修正。
+                      </div>
+                    </div>
+                    <div className="it">
+                      {/* <img
+                        className="date"
+                        src={require("../assert/manage/date8.png")}
+                      /> */}
+                      <div className="date">
+                        <div className="date-in">
+                          <span className="month">11</span>
+                          <img
+                            className="s-divider"
+                            src={require("../assert/manage/divider.png")}
+                          ></img>
+                          <span className="year">2018</span>
+                        </div>
+                      </div>
+                      <div className="txt1">完善维护</div>
+                      <div className="txt2">
+                        在使用过程中不断收集各方建议，进行分析修正测试，更加完善系统。
+                      </div>
                     </div>
                   </div>
                 </div>

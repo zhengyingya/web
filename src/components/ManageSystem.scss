@@ -168,7 +168,7 @@
     position: absolute;
     width: 48px;
     height: 48px;
-    right: 130px;
+    right: 170px;
     top: 120px;
     background: url(../assert/manage/paopao.png);
     background-size: 100% 100%;
@@ -183,8 +183,8 @@
   .paopao3 {
     width: 38px;
     height: 38px;
-    right: 60px;
-    top: 30px;
+    right: 80px;
+    top: 50px;
   }
   .title-img {
     width: 150px;
@@ -206,7 +206,7 @@
     padding-top: 70px;
     .line {
       display: flex;
-      width: 1750px;
+      width: 1950px;
       height: 50px;
       position: relative;
       left: -20px;
@@ -217,11 +217,12 @@
       position: relative;
       display: flex;
       left: -20px;
+      width: 1950px;
       .it {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 220px;
+        width: 200px;
         margin-top: -80px;
         &:hover {
           .txt2 {
@@ -230,7 +231,37 @@
         }
       }
       .date {
-        z-index: 100;
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        background: #fff;
+        padding: 5px;
+        box-sizing: border-box;
+        .date-in {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          border: 1px solid rgba(241, 241, 241, 0.3);
+          z-index: 100;
+          box-sizing: border-box;
+        }
+      }
+      .month {
+        color: #0496f2;
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .year {
+        font-size: 10px;
+        transform: scale(0.7);
+      }
+      .s-divider {
+        width: 10px;
+        margin: 2px 0;
       }
       .txt1 {
         margin-top: 20px;
