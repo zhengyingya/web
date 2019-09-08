@@ -9,13 +9,24 @@ export default class Modal extends React.PureComponent {
   };
 
   render() {
-    const { children, visible, onCancel, className, showMask } = this.props;
+    const {
+      children,
+      visible,
+      onCancel,
+      className,
+      showMask,
+      height
+    } = this.props;
     return (
       visible &&
       createPortal(
         <div className={`wrapper ${className}`} onClick={onCancel}>
           {showMask && <div className="overlayer" onClick={onCancel} />}
-          <div className="container" onClick={this.handleClick}>
+          <div
+            className="container"
+            style={{ top: height && "50%", marginTop: height && -height / 2 }}
+            onClick={this.handleClick}
+          >
             {children}
           </div>
         </div>,

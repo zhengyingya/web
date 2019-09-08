@@ -78,7 +78,7 @@ class ManageSystem extends React.Component {
               {index === 1 && (
                 <div className={`left-wrap ${index === 1 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue集成化管理系统</h2>
+                  <h2>Blue Blue 集成化管理系统</h2>
                   <div className="divider" />
                   <h3>四大端口</h3>
                   <div className="txt">
@@ -113,16 +113,16 @@ class ManageSystem extends React.Component {
               {index === 2 && (
                 <div className={`left-wrap ${index === 2 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue集成化管理系统</h2>
+                  <h2>Blue Blue 集成化管理系统</h2>
                   <div className="divider" />
                   <h3>会员端</h3>
                   <div className="txt">
                     <div className="t1">
                       会员端分为 OS APP、 Android
-                      APP、微信链接登录口,每位会员都有专属的账号与密码,可
+                      APP、微信链接登录口，每位会员都有专属的账号与密码，可
                     </div>
                     <div className="t2">
-                      自主选择校区、教练、课程,随时随地可查看会员档案,掌握学习进度等。
+                      自主选择校区、教练、课程，随时随地可查看会员档案，掌握学习进度等。
                     </div>
                     <div className="t1" />
                     <div className="t2">
@@ -134,15 +134,15 @@ class ManageSystem extends React.Component {
               {index === 3 && (
                 <div className={`left-wrap anim-fadein`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue集成化管理系统</h2>
+                  <h2>Blue Blue 集成化管理系统</h2>
                   <div className="divider" />
                   <h3>教练端</h3>
                   <div className="txt">
                     <div className="t1">
-                      教练端主要用于教学进度的把控、教学成果的评分考核、教学阶段的升级等,方便教练记录并
+                      教练端主要用于教学进度的把控、教学成果的评分考核、教学阶段的升级等，方便教练记录并
                     </div>
                     <div className="t2">
-                      了解每一位学员的上课情况与进度,更好地做到因材施教、循序渐进。
+                      了解每一位学员的上课情况与进度，更好地做到因材施教、循序渐进。
                     </div>
                   </div>
                 </div>
@@ -150,7 +150,7 @@ class ManageSystem extends React.Component {
               {index === 4 && (
                 <div className={`left-wrap ${index === 4 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue集成化管理系统</h2>
+                  <h2>Blue Blue 集成化管理系统</h2>
                   <div className="divider" />
                   <h3>顾问端</h3>
                   <div className="txt">
@@ -163,7 +163,7 @@ class ManageSystem extends React.Component {
               {index === 5 && (
                 <div className={`left-wrap ${index === 5 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue集成化管理系统</h2>
+                  <h2>Blue Blue 集成化管理系统</h2>
                   <div className="divider" />
                   <h3>后台管理端</h3>
                   <div className="txt">

@@ -216,7 +216,7 @@ class Content extends React.Component {
             {""}
             {/* <Join cIndex={this.props.cIndex} slickPrev={this.slickPrev} /> */}
             <LazyComponent
-              time={6200}
+              time={200}
               default={<div>loading</div>}
               realProps={{
                 cIndex: this.props.cIndex,

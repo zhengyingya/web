@@ -23,8 +23,7 @@ const TXT = [
   {
     txt1: "海马班",
     txt2: "HIPPOCAMPUS CLASS",
-    txt3a: "15-24个月为小海马",
-    txt3: "24-30个月为大海马",
+    txt3: "15-30个月",
     txt4: "多样化 | 趣味性 | 循循善诱"
   },
   {
@@ -36,13 +35,13 @@ const TXT = [
   {
     txt1: "海豚班",
     txt2: "DOLPHINS CLASS",
-    txt3: "3.5-5周（岁）",
+    txt3: "3.5-5周岁",
     txt4: "活跃 | 自主 | 激励"
   },
   {
     txt1: "鲨鱼班",
     txt2: "SHARK CLASS",
-    txt3: "5-7周（岁）",
+    txt3: "5-7周岁",
     txt4: "融洽 | 正规 | 标准化 | 重复性"
   }
 ];
@@ -58,7 +57,7 @@ const Item = ({ icon, word, enWord }) => {
   );
 };
 
-const CourseContent = ({ mIndex, index }) => {
+const CourseContent = ({ mIndex, index, onClick }) => {
   return (
     <div className="wrap">
       <img
@@ -73,37 +72,55 @@ const CourseContent = ({ mIndex, index }) => {
         <div className="txt4">{TXT[mIndex].txt4}</div>
       </div>
       <div className="modal-bg">
-        <div className={`it ${mIndex === 1 && "active"}`}>
+        <div
+          className={`it ${mIndex === 1 && "active"}`}
+          onClick={() => onClick(1)}
+        >
           <div className="act">
             <div>小海星班</div>
             <div>STARFISH CLASS</div>
           </div>
         </div>
-        <div className={`it ${mIndex === 2 && "active"}`}>
+        <div
+          className={`it ${mIndex === 2 && "active"}`}
+          onClick={() => onClick(2)}
+        >
           <div className="act">
             <div className="txt1">小章鱼班</div>
             <div className="txt2">OCTOPUS CLASS</div>
           </div>
         </div>
-        <div className={`it ${mIndex === 3 && "active"}`}>
+        <div
+          className={`it ${mIndex === 3 && "active"}`}
+          onClick={() => onClick(3)}
+        >
           <div className="act">
             <div className="txt1">海马班</div>
             <div className="txt2">HIPPOCAMPUS CLASS</div>
           </div>
         </div>
-        <div className={`it ${mIndex === 4 && "active"}`}>
+        <div
+          className={`it ${mIndex === 4 && "active"}`}
+          onClick={() => onClick(4)}
+        >
           <div className="act">
             <div className="txt1">海龟班</div>
             <div className="txt2">TURTLES CLASS</div>
           </div>
         </div>
-        <div className={`it ${mIndex === 5 && "active"}`}>
+        <div
+          className={`it ${mIndex === 5 && "active"}`}
+          onClick={() => onClick(5)}
+        >
           <div className="act">
             <div className="txt1">海豚班</div>
             <div className="txt2">DOLPHINS CLASS</div>
           </div>
         </div>
-        <div className={`it ${mIndex === 6 && "active"}`}>
+        <div
+          className={`it ${mIndex === 6 && "active"}`}
+          onClick={() => onClick(6)}
+        >
           <div className="act">
             <div className="txt1">鲨鱼班</div>
             <div className="txt2">SHARK CLASS</div>
@@ -166,7 +183,12 @@ class Course extends React.Component {
             }}
             key="menu0"
           >
-            <div className="system-wrap">
+            <div
+              className="system-wrap"
+              onClick={() => {
+                this.systemSwiper.slideNext();
+              }}
+            >
               <img
                 className="img"
                 src={require("../assert/course/system.png")}
@@ -175,8 +197,8 @@ class Course extends React.Component {
                 Blue以科学规范为原则,以相辅相成为内核,构建递进式八大课程体系。
               </div>
               <div className="txt2">
-                Based on scientifc norms, Blue Blue Baby Swimming has constructed
-                eight major
+                Based on scientifc norms, Blue Blue Baby Swimming has
+                constructed eight major
               </div>
               <div className="txt2">
                 courses system, which supplement each other.
@@ -188,7 +210,12 @@ class Course extends React.Component {
                 }}
               />
             </div>
-            <div className="system-wrap wrap2">
+            <div
+              className="system-wrap wrap2"
+              onClick={() => {
+                this.systemSwiper.slidePrev();
+              }}
+            >
               <div className="cnt">
                 <Item
                   icon="icon1"
@@ -420,7 +447,12 @@ class Course extends React.Component {
             }}
             key="menu2"
           >
-            <div className="system-wrap">
+            <div
+              className="system-wrap"
+              onClick={() => {
+                this.scoreSwiper.slideNext();
+              }}
+            >
               <img
                 className="img"
                 src={require("../assert/course/score.png")}
@@ -428,9 +460,7 @@ class Course extends React.Component {
               <div className="txt1">
                 Blue全方位教学评分体系，提升教学质量，动态跟踪教学成效。
               </div>
-              <div className="txt2">
-                All-round Teaching Scoring System
-              </div>
+              <div className="txt2">All-round Teaching Scoring System</div>
               <div
                 className="down-btn"
                 onClick={() => {
@@ -438,7 +468,12 @@ class Course extends React.Component {
                 }}
               />
             </div>
-            <div className="system-wrap wrap2">
+            <div
+              className="system-wrap wrap2"
+              onClick={() => {
+                this.scoreSwiper.slidePrev();
+              }}
+            >
               <div className="cnt-2">
                 <Item icon="c4" word="基础评分" enWord="Bisic Scores" />
                 <Item
@@ -533,7 +568,7 @@ class Course extends React.Component {
             <div className="cour-overlayer" onClick={this.onCancel} />,
             document.getElementById("root")
           )}
-        {[1, 2].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -542,9 +577,16 @@ class Course extends React.Component {
               "fade-in-right": mIndex === 1 && isRight,
               "fade-out-left": mIndex === 2 && isLeft
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={1} />
+              <CourseContent
+                mIndex={mIndex}
+                index={1}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
@@ -559,7 +601,7 @@ class Course extends React.Component {
             </div>
           </Modal>
         )}
-        {[1, 2, 3].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -570,9 +612,16 @@ class Course extends React.Component {
               "fade-out-left": mIndex === 3 && isLeft,
               "fade-out-right": mIndex === 1 && isRight
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={2} />
+              <CourseContent
+                mIndex={mIndex}
+                index={2}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
@@ -587,7 +636,7 @@ class Course extends React.Component {
             </div>
           </Modal>
         )}
-        {[2, 3, 4].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -598,9 +647,16 @@ class Course extends React.Component {
               "fade-out-left": mIndex === 4 && isLeft,
               "fade-out-right": mIndex === 2 && isRight
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={3} />
+              <CourseContent
+                mIndex={mIndex}
+                index={3}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
@@ -609,13 +665,15 @@ class Course extends React.Component {
                 </div>
                 <div className="txt1">课程主题：《 Hi Five 》</div>
                 <div>
-                  情绪需要有效的方式去舒缓和释放，而非强行的单方面压制，否则只会适得其反。家长要对宝宝持有耐心的沟通与引导，经常用“Give me a five”这种积极鼓励式的有趣方法来化解宝宝出现的多种反弹情绪。家长要学会尽量去聆听宝宝、了解宝宝、尊重宝宝，这有益于增长宝宝的EQ与IQ，有利于培养宝宝日后良好的社交能力。
+                  情绪需要有效的方式去舒缓和释放，而非强行的单方面压制，否则只会适得其反。家长要对宝宝持有耐心的沟通与引导，经常用“Give
+                  me a
+                  five”这种积极鼓励式的有趣方法来化解宝宝出现的多种反弹情绪。家长要学会尽量去聆听宝宝、了解宝宝、尊重宝宝，这有益于增长宝宝的EQ与IQ，有利于培养宝宝日后良好的社交能力。
                 </div>
               </div>
             </div>
           </Modal>
         )}
-        {[3, 4, 5].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -626,9 +684,16 @@ class Course extends React.Component {
               "fade-out-left": mIndex === 5 && isLeft,
               "fade-out-right": mIndex === 3 && isRight
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={4} />
+              <CourseContent
+                mIndex={mIndex}
+                index={4}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
@@ -643,7 +708,7 @@ class Course extends React.Component {
             </div>
           </Modal>
         )}
-        {[4, 5, 6].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -654,9 +719,16 @@ class Course extends React.Component {
               "fade-out-left": mIndex === 6 && isLeft,
               "fade-out-right": mIndex === 4 && isRight
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={5} />
+              <CourseContent
+                mIndex={mIndex}
+                index={5}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
@@ -671,7 +743,7 @@ class Course extends React.Component {
             </div>
           </Modal>
         )}
-        {[5, 6].indexOf(mIndex) > -1 && (
+        {[1, 2, 3, 4, 5, 6].indexOf(mIndex) > -1 && (
           <Modal
             visible={true}
             onCancel={this.onCancel}
@@ -680,14 +752,21 @@ class Course extends React.Component {
               "fade-in-left": mIndex === 6 && isLeft,
               "fade-out-right": mIndex === 5 && isRight
             })}
+            height={700}
           >
             <div className="cour-modal">
-              <CourseContent mIndex={mIndex} index={6} />
+              <CourseContent
+                mIndex={mIndex}
+                index={6}
+                onClick={mIndex => {
+                  this.setState({ mIndex, isLeft: false, isRight: false });
+                }}
+              />
               <div className="btn-close" onClick={this.onCancel} />
               <div className="card">
                 <div className="txt1">课程优势</div>
                 <div className="txt2">
-                  课程优势：为儿童提供一个丰富且具刺激性的环境，在自主探索中变得勇敢，在课程中学会互帮互助，以团队互动的形式让儿童在课程中学会分享与帮助，增强团队意识和自救意识，找到责任感和归属感。
+                  为儿童提供一个丰富且具刺激性的环境，在自主探索中变得勇敢，在课程中学会互帮互助，以团队互动的形式让儿童在课程中学会分享与帮助，增强团队意识和自救意识，找到责任感和归属感。
                 </div>
                 <div className="txt1">课程主题：《 我是小大人 》</div>
                 <div>
