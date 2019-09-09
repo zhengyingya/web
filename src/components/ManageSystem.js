@@ -82,23 +82,21 @@ class ManageSystem extends React.Component {
                   <div className="divider" />
                   <h3>四大端口</h3>
                   <div className="txt">
-                    <div className="t1">
+                    <div className="t1-">
                       Blue
-                      Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集
+                      Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化管理系统。
                     </div>
-                    <div className="t2">成化管理系统。</div>
-                    <div className="t1">
+                    <div className="t2"></div>
+                    <div className="t1-">
                       Blue
-                      Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相
+                      Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相成，保持整个系统的正常流程运作。
                     </div>
-                    <div className="t2">成，保持整个系统的正常流程运作。</div>
-                    <div className="t1">
+                    <div className="t2"></div>
+                    <div className="t1-">
                       Blue
-                      Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序
+                      Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
                     </div>
-                    <div className="t2">
-                      管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
-                    </div>
+                    <div className="t2"></div>
                     <div
                       className="btn"
                       onClick={() => {
@@ -126,7 +124,8 @@ class ManageSystem extends React.Component {
                     </div>
                     <div className="t1" />
                     <div className="t2">
-                      具体操作请查看《Blue集成化管理系统—一会员端使用说明书》
+                      具体操作请查看《Blue
+                      Blue集成化管理系统—一会员端使用说明书》
                     </div>
                   </div>
                 </div>
