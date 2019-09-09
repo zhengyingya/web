@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a7b69c6e0a23f4a26c3a94eeccfeafc6",
+    "revision": "97fd6d89949ea3b94d237aaea5290b4c",
     "url": "/index.html"
   },
   {
-    "revision": "b7ddb5be969a8c979079",
+    "revision": "9e25f3ad73bf6e96887c",
     "url": "/static/css/2.24649bc4.chunk.css"
   },
   {
-    "revision": "81bb8b41cffaee8fb5dc",
-    "url": "/static/css/main.740e6eb2.chunk.css"
+    "revision": "b50b140e0947b03b7030",
+    "url": "/static/css/main.87f283d0.chunk.css"
   },
   {
-    "revision": "b7ddb5be969a8c979079",
-    "url": "/static/js/2.1f27ac10.chunk.js"
+    "revision": "9e25f3ad73bf6e96887c",
+    "url": "/static/js/2.e4440dff.chunk.js"
   },
   {
-    "revision": "81bb8b41cffaee8fb5dc",
-    "url": "/static/js/main.825a6404.chunk.js"
+    "revision": "b50b140e0947b03b7030",
+    "url": "/static/js/main.83df43bb.chunk.js"
   },
   {
     "revision": "dd357ac1113d13e42218",
@@ -96,12 +96,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/home-bg.12e172e7.jpg"
   },
   {
-    "revision": "2e7a44db72fd50a686ac21689c32b81c",
-    "url": "/static/media/i1.2e7a44db.jpg"
-  },
-  {
     "revision": "899185e2dca846ac3b2becd02c211759",
     "url": "/static/media/i1.899185e2.jpg"
+  },
+  {
+    "revision": "e682a76c75450397b5879f1103f0d4e2",
+    "url": "/static/media/i1.e682a76c.jpg"
   },
   {
     "revision": "10a6b4813330fc1d292820a6407e3004",
@@ -152,10 +152,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/logo.5d5d9eef.svg"
   },
   {
-    "revision": "eb940c59308fa2b454fd971e2f392e74",
-    "url": "/static/media/logo.eb940c59.png"
-  },
-  {
     "revision": "bcdfceb48347350a30d62f7e0eba48f4",
     "url": "/static/media/modal-bg.bcdfceb4.png"
   },
@@ -188,20 +184,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/people.4fc3f8ec.png"
   },
   {
-    "revision": "a6a9b3f1ffd8efc72ec1834b093c726b",
-    "url": "/static/media/phone1.a6a9b3f1.png"
+    "revision": "219dce41279d672027d79fbe09b97e04",
+    "url": "/static/media/phone1.219dce41.png"
   },
   {
-    "revision": "ec7bb5932a367fc7b14df8bf16e4d309",
-    "url": "/static/media/phone2.ec7bb593.png"
+    "revision": "d95a5a2564645957e4817cf2e959e00c",
+    "url": "/static/media/phone2.d95a5a25.png"
   },
   {
-    "revision": "83f3e8e7e1e624a05e51ef710b49515e",
-    "url": "/static/media/phone3.83f3e8e7.png"
+    "revision": "13471ea391229074228679acc601cb2f",
+    "url": "/static/media/phone3.13471ea3.png"
   },
   {
-    "revision": "011f40b30a772321aff275c5fbfd3a16",
-    "url": "/static/media/phone4.011f40b3.png"
+    "revision": "b4fa1c9750ac7a5cef609ce41323835a",
+    "url": "/static/media/phone4.b4fa1c97.png"
   },
   {
     "revision": "40584c6fb6c33077c593e61dfef7f592",

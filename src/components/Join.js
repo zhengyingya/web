@@ -85,10 +85,11 @@ class Join extends React.Component {
                 />
                 <div className="txt1">ENTHUSIASM</div>
                 <div className="txt2">热情</div>
-                <div>
-                  热爱幼儿游泳教育行业，认同卜鲁卜鲁亲子游泳(Blue Blue Baby
-                  Swimming)的教育理念，有志于长期 发展亲子游泳早教事业
+                <div className="txt4">
+                  热爱幼儿游泳教育行业，认同卜鲁卜鲁亲子游泳（Blue Blue Baby
+                  Swimming）的教育理念，有志于长期 发展亲子游泳早教事业
                 </div>
+                <div className="txt4"></div>
               </div>
               <div className="card">
                 <img
@@ -109,9 +110,9 @@ class Join extends React.Component {
                 <div className="txt2">经营</div>
                 <div className="txt3">
                   具有一定的经营管理能力，能够全身心投入经营管理，认同卜鲁卜鲁亲子游泳（Blue
-                  Blue Baby Swimming）的经营理念与管理规范，接受总部的
+                  Blue Baby Swimming）的经营理念与管理规范，接受总部的管理和指导
                 </div>
-                <div className="txt4">管理和指导。</div>
+                <div className="txt4"></div>
               </div>
               <div className="card">
                 <img
