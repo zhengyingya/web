@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import "./Head.scss";
 class Head extends React.Component {
   constructor(props) {
@@ -8,7 +9,12 @@ class Head extends React.Component {
   render() {
     const { index, slickGoTo } = this.props;
     return (
-      <div className="head">
+      <div
+        className={classNames({
+          head: true,
+          "head-a": index === 6
+        })}
+      >
         <div className="left">
           <div className="logo" />
           <div className="menu">

@@ -185,9 +185,10 @@ class Course extends React.Component {
           >
             <div
               className="system-wrap"
-              onClick={() => {
-                this.systemSwiper.slideNext();
-              }}
+              // onClick={() => {
+              //   this.systemSwiper.slideNext();
+              // }}
+              onMouseEnter={() => this.systemSwiper.slideNext()}
             >
               <img
                 className="img"
@@ -203,18 +204,19 @@ class Course extends React.Component {
               <div className="txt2">
                 courses system, which supplement each other.
               </div>
-              <div
+              {/* <div
                 className="down-btn"
                 onClick={() => {
                   this.systemSwiper.slideNext();
                 }}
-              />
+              /> */}
             </div>
             <div
               className="system-wrap wrap2"
-              onClick={() => {
-                this.systemSwiper.slidePrev();
-              }}
+              // onClick={() => {
+              //   this.systemSwiper.slidePrev();
+              // }}
+              onMouseLeave={() => this.systemSwiper.slidePrev()}
             >
               <div className="cnt">
                 <Item
@@ -449,9 +451,10 @@ class Course extends React.Component {
           >
             <div
               className="system-wrap"
-              onClick={() => {
-                this.scoreSwiper.slideNext();
-              }}
+              // onClick={() => {
+              //   this.scoreSwiper.slideNext();
+              // }}
+              onMouseEnter={() => this.scoreSwiper.slideNext()}
             >
               <img
                 className="img"
@@ -461,18 +464,19 @@ class Course extends React.Component {
                 Blue全方位教学评分体系，提升教学质量，动态跟踪教学成效。
               </div>
               <div className="txt2">All-round Teaching Scoring System</div>
-              <div
+              {/* <div
                 className="down-btn"
                 onClick={() => {
                   this.scoreSwiper.slideNext();
                 }}
-              />
+              /> */}
             </div>
             <div
               className="system-wrap wrap2"
-              onClick={() => {
-                this.scoreSwiper.slidePrev();
-              }}
+              // onClick={() => {
+              //   this.scoreSwiper.slidePrev();
+              // }}
+              onMouseLeave={() => this.scoreSwiper.slidePrev()}
             >
               <div className="cnt-2">
                 <Item icon="c4" word="基础评分" enWord="Bisic Scores" />

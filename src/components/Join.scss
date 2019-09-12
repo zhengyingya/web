@@ -87,10 +87,10 @@
       }
       .logo {
         position: absolute;
-        top: -10px;
-        right: 120px;
-        width: 120px;
-        height: 50px;
+        top: -5px;
+        right: 142px;
+        width: 56px;
+        height: 55px;
         background: url(../assert/join/logo.png);
         background-size: 100% 100%;
       }
@@ -467,104 +467,104 @@
   }
 }
 
-@media screen and (min-width: 1919px) {
-  .page-join-bg {
-    height: 6250px;
-    h2 {
-      font-size: 32px;
-    }
-    h3 {
-      font-size: 28px;
-    }
-    .divider {
-      width: 70px;
-      height: 10px;
-    }
-    .prospect {
-      width: 1280px;
-    }
-    .border-1 {
-      width: 550px;
-      height: 520px;
-      font-size: 22px;
-    }
-    .condition {
-      .condition-cnt {
-        width: 1440px;
-        .card {
-          width: 320px;
-          > div {
-            font-size: 18px;
-          }
-          > .txt1 {
-            font-size: 28px;
-          }
-          > .txt2 {
-            font-size: 28px;
-          }
-        }
-        .icon-1 {
-          width: 182px;
-          height: 160px;
-        }
-      }
-    }
-    .support {
-      width: 1280px;
-      .card {
-        width: 990px;
-        height: 180px;
-        .icon {
-          width: 200px;
-          top: -10px;
-        }
-        .icon-a {
-          width: 180px;
-          top: 0px;
-        }
-        .txt1 {
-          font-size: 28px;
-        }
-        .txt2 {
-          font-size: 22px;
-        }
-      }
-    }
-    .support-r {
-      width: 1280px;
-      .card {
-        width: 990px;
-        height: 180px;
-        .icon {
-          width: 200px;
-          top: -10px;
-        }
-        .icon-a {
-          width: 180px;
-          top: 0px;
-        }
-        .txt1 {
-          font-size: 28px;
-        }
-        .txt2 {
-          font-size: 22px;
-        }
-      }
-    }
-    .img6 {
-      width: 1280px;
-    }
-    .reward {
-      width: 1280px;
-      .card,
-      .card-2,
-      .card-3,
-      .card-4 {
-        width: 640px;
-        height: 150px;
-        padding-left: 140px;
-        font-size: 18px;
-      }
-    }
-  }
-}
+// @media screen and (min-width: 1919px) {
+//   .page-join-bg {
+//     height: 6250px;
+//     h2 {
+//       font-size: 32px;
+//     }
+//     h3 {
+//       font-size: 28px;
+//     }
+//     .divider {
+//       width: 70px;
+//       height: 10px;
+//     }
+//     .prospect {
+//       width: 1280px;
+//     }
+//     .border-1 {
+//       width: 550px;
+//       height: 520px;
+//       font-size: 22px;
+//     }
+//     .condition {
+//       .condition-cnt {
+//         width: 1440px;
+//         .card {
+//           width: 320px;
+//           > div {
+//             font-size: 18px;
+//           }
+//           > .txt1 {
+//             font-size: 28px;
+//           }
+//           > .txt2 {
+//             font-size: 28px;
+//           }
+//         }
+//         .icon-1 {
+//           width: 182px;
+//           height: 160px;
+//         }
+//       }
+//     }
+//     .support {
+//       width: 1280px;
+//       .card {
+//         width: 990px;
+//         height: 180px;
+//         .icon {
+//           width: 200px;
+//           top: -10px;
+//         }
+//         .icon-a {
+//           width: 180px;
+//           top: 0px;
+//         }
+//         .txt1 {
+//           font-size: 28px;
+//         }
+//         .txt2 {
+//           font-size: 22px;
+//         }
+//       }
+//     }
+//     .support-r {
+//       width: 1280px;
+//       .card {
+//         width: 990px;
+//         height: 180px;
+//         .icon {
+//           width: 200px;
+//           top: -10px;
+//         }
+//         .icon-a {
+//           width: 180px;
+//           top: 0px;
+//         }
+//         .txt1 {
+//           font-size: 28px;
+//         }
+//         .txt2 {
+//           font-size: 22px;
+//         }
+//       }
+//     }
+//     .img6 {
+//       width: 1280px;
+//     }
+//     .reward {
+//       width: 1280px;
+//       .card,
+//       .card-2,
+//       .card-3,
+//       .card-4 {
+//         width: 640px;
+//         height: 150px;
+//         padding-left: 140px;
+//         font-size: 18px;
+//       }
+//     }
+//   }
+// }

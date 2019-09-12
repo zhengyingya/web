@@ -301,63 +301,64 @@
 @media screen and (min-width: 1919px) {
   .page-manage-system {
     .left-wrap {
-      width: 780px;
-      font-size: 18px;
+      // width: 780px;
+      // font-size: 18px;
       margin-top: 220px;
-      h1 {
-        font-size: 34px;
-      }
-      .btn {
-        width: 150px;
-        height: 42px;
-      }
+      // h1 {
+      //   font-size: 34px;
+      // }
+      // .btn {
+      //   width: 150px;
+      //   height: 42px;
+      // }
     }
     .right {
-      .pool {
-        margin-top: 220px;
-        margin-left: 150px;
-        width: 550px;
-      }
-      .people {
-        top: -295px;
-        left: 260px;
-        width: 160px;
-      }
-      .duck {
-        top: -450px;
-        left: 460px;
-        width: 55px;
-      }
-      .ball {
-        top: -420px;
-        left: 560px;
-        width: 65px;
-      }
-      .chair {
-        top: -560px;
-        left: 120px;
-        width: 70px;
-      }
-      .shuttlecock {
-        top: -430px;
-        left: 40px;
-        width: 115px;
-      }
+      padding-top: 80px;
+    //   .pool {
+    //     margin-top: 220px;
+    //     margin-left: 150px;
+    //     width: 550px;
+    //   }
+    //   .people {
+    //     top: -295px;
+    //     left: 260px;
+    //     width: 160px;
+    //   }
+    //   .duck {
+    //     top: -450px;
+    //     left: 460px;
+    //     width: 55px;
+    //   }
+    //   .ball {
+    //     top: -420px;
+    //     left: 560px;
+    //     width: 65px;
+    //   }
+    //   .chair {
+    //     top: -560px;
+    //     left: 120px;
+    //     width: 70px;
+    //   }
+    //   .shuttlecock {
+    //     top: -430px;
+    //     left: 40px;
+    //     width: 115px;
+    //   }
       .cloud-1 {
-        width: 70px;
+        // width: 70px;
         top: 270px;
-        left: 50px;
+        left: 60px;
       }
       .sun {
-        width: 85px;
-        top: 180px;
-        left: 120px;
+        // width: 85px;
+        top: 190px;
+        left: 130px;
       }
-      .phone {
-        width: 300px;
-        top: 210px;
-        left: 220px;
-      }
+    //   .phone {
+    //     width: 300px;
+    //     top: 210px;
+    //     left: 220px;
+    //   }
     }
   }
 }
