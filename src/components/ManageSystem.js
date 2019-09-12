@@ -78,23 +78,20 @@ class ManageSystem extends React.Component {
               {index === 1 && (
                 <div className={`left-wrap ${index === 1 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue Blue 集成化管理系统</h2>
+                  <h2>Blue&nbsp;Blue集成化管理系统</h2>
                   <div className="divider" />
                   <h3>四大端口</h3>
                   <div className="txt">
                     <div className="t1-">
-                      Blue
-                      Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化管理系统。
+                      Blue&nbsp;Blue独立研发业内首套集会员管理、约课扣课、评分升阶、统计筛选等多功能于一体的集成化管理系统。
                     </div>
                     <div className="t2"></div>
                     <div className="t1-">
-                      Blue
-                      Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相成，保持整个系统的正常流程运作。
+                      Blue&nbsp;Blue根据课程设定需要和个性化管理需求，将集成化管理系统分为四大部分，分别是会员端、顾问端、教练端、后台管理端，每块对应着不同的功能，四大端口各司其职、相辅相成，保持整个系统的正常流程运作。
                     </div>
                     <div className="t2"></div>
                     <div className="t1-">
-                      Blue
-                      Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
+                      Blue&nbsp;Blue集成化管理系统兼具实用性、便捷性、高效性和灵活性，为商家提供日常运营、有序管理的保障，为会员带来更方便快捷的约课操作和更优质舒心的服务体验。
                     </div>
                     <div className="t2"></div>
                     <div
@@ -111,21 +108,19 @@ class ManageSystem extends React.Component {
               {index === 2 && (
                 <div className={`left-wrap ${index === 2 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue Blue 集成化管理系统</h2>
+                  <h2>Blue&nbsp;Blue集成化管理系统</h2>
                   <div className="divider" />
                   <h3>会员端</h3>
                   <div className="txt">
                     <div className="t1">
-                      会员端分为 OS APP、 Android
-                      APP、微信链接登录口，每位会员都有专属的账号与密码，可
+                      会员端分为OS&nbsp;APP、Android&nbsp;APP、微信链接登录口，每位会员都有专属的账号与密码，可
                     </div>
                     <div className="t2">
                       自主选择校区、教练、课程，随时随地可查看会员档案，掌握学习进度等。
                     </div>
                     <div className="t1" />
                     <div className="t2">
-                      具体操作请查看《Blue
-                      Blue集成化管理系统—一会员端使用说明书》
+                      具体操作请查看《Blue&nbsp;Blue集成化管理系统—一会员端使用说明书》
                     </div>
                   </div>
                 </div>
@@ -133,7 +128,7 @@ class ManageSystem extends React.Component {
               {index === 3 && (
                 <div className={`left-wrap anim-fadein`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue Blue 集成化管理系统</h2>
+                  <h2>Blue&nbsp;Blue集成化管理系统</h2>
                   <div className="divider" />
                   <h3>教练端</h3>
                   <div className="txt">
@@ -149,7 +144,7 @@ class ManageSystem extends React.Component {
               {index === 4 && (
                 <div className={`left-wrap ${index === 4 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue Blue 集成化管理系统</h2>
+                  <h2>Blue&nbsp;Blue集成化管理系统</h2>
                   <div className="divider" />
                   <h3>顾问端</h3>
                   <div className="txt">
@@ -162,7 +157,7 @@ class ManageSystem extends React.Component {
               {index === 5 && (
                 <div className={`left-wrap ${index === 5 && "anim-fadein"}`}>
                   <h1>MANAGEMENT SYSTEM</h1>
-                  <h2>Blue Blue 集成化管理系统</h2>
+                  <h2>Blue&nbsp;Blue集成化管理系统</h2>
                   <div className="divider" />
                   <h3>后台管理端</h3>
                   <div className="txt">

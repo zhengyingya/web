@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+﻿import React, { Fragment } from "react";
 import "./ManageSystem.scss";
 
 class Member extends React.Component {
@@ -11,7 +11,7 @@ class Member extends React.Component {
             className={`left-wrap ${this.props.cIndex === 5 && "anim-fadein"}`}
           >
             <h1>MANAGEMENT SYSTEM</h1>
-            <h2>Blue Blue 集成化管理系统</h2>
+            <h2>Blue&nbsp;Blue集成化管理系统</h2>
             <div className="divider" />
             <h3>会员端</h3>
             <div className="txt">
@@ -24,7 +24,7 @@ class Member extends React.Component {
               </div>
               <div className="t1" />
               <div className="t2">
-                具体操作请查看《Blue Blue集成化管理系统—一会员端使用说明书》
+                具体操作请查看《Blue&nbsp;Blue集成化管理系统—一会员端使用说明书》
               </div>
             </div>
           </div>

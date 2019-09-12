@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import React from "react";
 import classNames from "classnames";
+=======
+﻿import React from "react";
+>>>>>>> 6bc7cc975aa73c53a25f30b9453359297fd2731b
 import "./Head.scss";
 class Head extends React.Component {
   constructor(props) {
@@ -23,7 +27,7 @@ class Head extends React.Component {
                 className={index === 2 && "active"}
                 onClick={() => slickGoTo(2)}
               >
-                关于Blue Blue
+                关于Blue&nbsp;Blue
               </div>
             </div>
             <div className="item">
@@ -47,7 +51,7 @@ class Head extends React.Component {
                 className={index === 5 && "active"}
                 onClick={() => slickGoTo(5)}
               >
-                Blue Blue集成化管理系统
+                Blue&nbsp;Blue集成化管理系统
               </div>
             </div>
             <div className="item">
@@ -55,7 +59,7 @@ class Head extends React.Component {
                 className={index === 6 && "active"}
                 onClick={() => slickGoTo(6)}
               >
-                加盟Blue Blue
+                加盟Blue&nbsp;Blue
               </div>
             </div>
           </div>

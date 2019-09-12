@@ -501,7 +501,7 @@ class Join extends React.Component {
             <div className="card">
               <div>卜鲁卜鲁亲子游泳( Blue Blue Baby Swimming)属于国际</div>
               <div>专业游泳早教机构行业内的中小型投资，与市场上的同行</div>
-              <div>相比，Blue Blue的投资成本相对更低，约节省40%的成本。</div>
+              <div>相比，Blue&nbsp;Blue的投资成本相对更低，约节省40%的成本。</div>
             </div>
             <div className="card-2">
               <div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>

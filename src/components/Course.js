@@ -195,7 +195,7 @@ class Course extends React.Component {
                 src={require("../assert/course/system.png")}
               />
               <div className="txt1">
-                Blue以科学规范为原则,以相辅相成为内核,构建递进式八大课程体系。
+                Blue&nbsp;Blue以科学规范为原则,以相辅相成为内核,构建递进式八大课程体系。
               </div>
               <div className="txt2">
                 Based on scientifc norms, Blue Blue Baby Swimming has
@@ -461,7 +461,7 @@ class Course extends React.Component {
                 src={require("../assert/course/score.png")}
               />
               <div className="txt1">
-                Blue全方位教学评分体系，提升教学质量，动态跟踪教学成效。
+                Blue&nbsp;Blue全方位教学评分体系，提升教学质量，动态跟踪教学成效。
               </div>
               <div className="txt2">All-round Teaching Scoring System</div>
               {/* <div
