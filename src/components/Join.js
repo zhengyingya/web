@@ -135,121 +135,51 @@ class Join extends React.Component {
               <div className="txt">
                 <div>STEP 01</div>
                 <div>加盟申请阶段</div>
-                <div className="en">Join application</div>
               </div>
               <div
                 className="btn-right"
-                // onClick={() => {
-                //   this.setState({ visible1: true });
-                // }}
+                onClick={() => {
+                  this.setState({ visible1: true });
+                }}
               />
-              {/* <img
+              <img
                 className="bg"
                 src={require("../assert/join/card-bg2.png")}
-              /> */}
+              />
             </div>
-
-            <div className="step-modal">
-              <div className="bottom">
-                <li>01</li>
-                <span>初步沟通，了解品牌情况</span>
-                <div className="arrow" />
-                <li>02</li>
-                <span>填写加盟意向申请表</span>
-                <div className="arrow" />
-                <li>03</li>
-                <span>双方意向确认</span>
-                <div className="arrow" />
-                <li>04</li>
-                <span>签署加盟合同</span>
-              </div>
-            </div>
-          </div>
-          <div className="process">
             <div className="card">
               <img className="icon" src={require("../assert/join/icon6.png")} />
               <div className="txt">
                 <div>STEP 02</div>
                 <div>开业筹备阶段</div>
-                <div className="en">Opening preparation</div>
               </div>
               <div
                 className="btn-right"
-                // onClick={() => {
-                //   this.setState({ visible2: true });
-                // }}
+                onClick={() => {
+                  this.setState({ visible2: true });
+                }}
               />
-              {/* <img
+              <img
                 className="bg"
                 src={require("../assert/join/card-bg2.png")}
-              /> */}
+              />
             </div>
-            <div className="step-modal">
-              <div className="bottom mb">
-                <li>01</li>
-                <span>市场调研及分析</span>
-                <div className="arrow" />
-                <li>02</li>
-                <span>选址及定址</span>
-                <div className="arrow" />
-                <li>03</li>
-                <span>装修及施工</span>
-                <div className="arrow" />
-                <li>04</li>
-                <span>开业前期各项筹备</span>
-              </div>
-              <div className="bottom">
-                <li>05</li>
-                <span>人员集中培训</span>
-                <div className="arrow" />
-                <li>06</li>
-                <span>到店巡视指导</span>
-              </div>
-            </div>
-          </div>
-          <div className="process">
             <div className="card">
               <img className="icon" src={require("../assert/join/icon7.png")} />
               <div className="txt">
                 <div>STEP 03</div>
                 <div>日常运营阶段</div>
-                <div className="en">Daily operation</div>
               </div>
               <div
                 className="btn-right"
-                // onClick={() => {
-                //   this.setState({ visible3: true });
-                // }}
+                onClick={() => {
+                  this.setState({ visible3: true });
+                }}
               />
-              {/* <img
+              <img
                 className="bg"
                 src={require("../assert/join/card-bg2.png")}
-              /> */}
-            </div>
-            <div className="step-modal">
-              <div className="bottom mb">
-                <li>01</li>
-                <span>市场推广活动</span>
-                <div className="arrow" />
-                <li>02</li>
-                <span>管理运营指导</span>
-                <div className="arrow" />
-                <li>03</li>
-                <span>工作流程支持</span>
-                <div className="arrow" />
-                <li>04</li>
-                <span>系统升级维护</span>
-              </div>
-              <div className="bottom">
-                <li>05</li>
-                <span>定期培训指导</span>
-                <div className="arrow" />
-                <li>06</li>
-                <span>教案教具更新</span>
-                <div className="arrow" />
-                <li>07</li>
-                <span>品牌宣传支持</span>
-              </div>
+              />
             </div>
           </div>
 

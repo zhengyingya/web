@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 import React from "react";
 import classNames from "classnames";
-=======
-﻿import React from "react";
->>>>>>> 6bc7cc975aa73c53a25f30b9453359297fd2731b
 import "./Head.scss";
 class Head extends React.Component {
   constructor(props) {
