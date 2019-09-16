@@ -186,6 +186,7 @@ class Join extends React.Component {
           <Modal
             visible={this.state.visible1}
             showMask={true}
+            height={340}
             onCancel={() => {
               this.onCancel("visible1");
             }}
@@ -226,6 +227,7 @@ class Join extends React.Component {
           <Modal
             visible={this.state.visible2}
             showMask={true}
+            height={340}
             onCancel={() => {
               this.onCancel("visible2");
             }}
@@ -273,6 +275,7 @@ class Join extends React.Component {
           <Modal
             visible={this.state.visible3}
             showMask={true}
+            height={340}
             onCancel={() => {
               this.onCancel("visible3");
             }}
@@ -431,7 +434,9 @@ class Join extends React.Component {
             <div className="card">
               <div>卜鲁卜鲁亲子游泳( Blue Blue Baby Swimming)属于国际</div>
               <div>专业游泳早教机构行业内的中小型投资，与市场上的同行</div>
-              <div>相比，Blue&nbsp;Blue的投资成本相对更低，约节省40%的成本。</div>
+              <div>
+                相比，Blue&nbsp;Blue的投资成本相对更低，约节省40%的成本。
+              </div>
             </div>
             <div className="card-2">
               <div>德国进口水处理设备是由原厂直供的，无中间商赚差价，</div>
@@ -466,18 +471,22 @@ class Join extends React.Component {
           />
           <div className="right">
             <div className="top">
-              <a
+              {/* <a
                 href="http://wpa.qq.com/msgrd?v=3&uin=1846189021&site=qq&menu=yes"
                 target="_blank"
-              >
-                <div className="qq" />
-              </a>
+              > */}
+              <div className="qq">
+                <div className="qq-modal"></div>
+              </div>
+              {/* </a> */}
               <div className="wechat">
                 <div className="qrcode"></div>
               </div>
-              <a href="https://weibo.com" target="_blank">
-                <div className="webo" />
-              </a>
+              {/* <a href="https://weibo.com" target="_blank"> */}
+              <div className="webo">
+                <div className="douyin-model"></div>
+              </div>
+              {/* </a> */}
               <div className="logo" />
             </div>
             <div className="bottom">

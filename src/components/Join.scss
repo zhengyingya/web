@@ -47,11 +47,28 @@
         font-size: 14px;
       }
       .qq {
+        position: relative;
         width: 35px;
         height: 35px;
         background: url(../assert/join/qq.png);
         background-size: 100% 100%;
         margin-right: 30px;
+        &:hover {
+          .qq-modal {
+            display: block;
+          }
+        }
+        .qq-modal {
+          display: none;
+          position: absolute;
+          width: 150px;
+          height: 190px;
+          background: #fff;
+          bottom: 50px;
+          left: -55px;
+          background: url(../assert/join/qq-modal.jpeg);
+          background-size: 100% 100%;
+        }
       }
       .wechat {
         position: relative;
@@ -79,11 +96,29 @@
         }
       }
       .webo {
+        position: relative;
         width: 40px;
         height: 40px;
         background: url(../assert/join/douyin.png);
         background-size: 100% 100%;
         margin-top: -2px;
+        cursor: pointer;
+        &:hover {
+          .douyin-model {
+            display: block;
+          }
+        }
+        .douyin-model {
+          display: none;
+          position: absolute;
+          width: 150px;
+          height: 190px;
+          background: #fff;
+          bottom: 50px;
+          left: -55px;
+          background: url(../assert/join/douyin-modal.jpeg);
+          background-size: 100% 100%;
+        }
       }
       .logo {
         position: absolute;
@@ -102,7 +137,7 @@
   flex-direction: column;
   align-items: center;
   width: 100vw;
-  height: 5350px;
+  height: 5050px;
   background: url(../assert/join/bg.png);
   background-size: 100% 100%;
   > .img-i1 {

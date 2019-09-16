@@ -299,8 +299,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a1.jpg")}
                 />
                 {cIndex !== 0 && <div className="gray-bg" />}
-                <div className="txt1">小海星班</div>
-                <div className="txt2">STARFISH CLASS</div>
+                <div className="des">
+                  <div className="txt1">小海星班</div>
+                  <div className="txt2">STARFISH CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">小海星班</div>
+                  <div className="txt2">STARFISH CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    通过潜水练习，促进宝宝心肺功能发育，以柔和抚触使婴儿进行主动和被动的运动，促进血液循环
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
               <div
                 className={classnames({
@@ -319,8 +330,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a2.jpg")}
                 />
                 {cIndex !== 1 && <div className="gray-bg" />}
-                <div className="txt1">小章鱼班</div>
-                <div className="txt2">OCTOPUS CLASS</div>
+                <div className="des">
+                  <div className="txt1">小章鱼班</div>
+                  <div className="txt2">OCTOPUS CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">小章鱼班</div>
+                  <div className="txt2">OCTOPUS CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    针对不同宝宝自身的实际情况，配合宝宝适当放慢课程进度，通过有次序、有部位、有技巧地抚触
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
               <div
                 className={classnames({
@@ -339,8 +361,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a3.jpg")}
                 />
                 {cIndex !== 2 && <div className="gray-bg" />}
-                <div className="txt1">海马班</div>
-                <div className="txt2">HIPPOCAMPUS CLASS</div>
+                <div className="des">
+                  <div className="txt1">海马班</div>
+                  <div className="txt2">HIPPOCAMPUS CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">海马班</div>
+                  <div className="txt2">HIPPOCAMPUS CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    通过多元趣味性游戏，激发宝宝对游泳运动的兴趣，消除宝宝后期对水的害怕心理，指导宝宝练习基础游泳动作
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
               <div
                 className={classnames({
@@ -359,8 +392,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a4.jpg")}
                 />
                 {cIndex !== 3 && <div className="gray-bg" />}
-                <div className="txt1">海龟班</div>
-                <div className="txt2">TURTLES CLASS</div>
+                <div className="des">
+                  <div className="txt1">海龟班</div>
+                  <div className="txt2">TURTLES CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">海龟班</div>
+                  <div className="txt2">TURTLES CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    强化精细动作，加强协调性训练，有助于刺激脑部与神经系统的发展，不断重复逻辑性信号词，增强宝宝的智力和理解能力
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
               <div
                 className={classnames({
@@ -379,8 +423,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a5.jpg")}
                 />
                 {cIndex !== 4 && <div className="gray-bg" />}
-                <div className="txt1">海豚班</div>
-                <div className="txt2">DOLPHINS CLASS</div>
+                <div className="des">
+                  <div className="txt1">海豚班</div>
+                  <div className="txt2">DOLPHINS CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">海豚班</div>
+                  <div className="txt2">DOLPHINS CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    以重复性游泳动作教学为主，力求规范化每一个动作，锻炼宝宝的臂部腿部力量，掌握水中良好的协调和平衡能力
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
               <div
                 className={classnames({
@@ -398,8 +453,19 @@ class Course extends React.Component {
                   src={require("../assert/course/a6.jpg")}
                 />
                 {cIndex !== 5 && <div className="gray-bg" />}
-                <div className="txt1">鲨鱼班</div>
-                <div className="txt2">SHARK CLASS</div>
+                <div className="des">
+                  <div className="txt1">鲨鱼班</div>
+                  <div className="txt2">SHARK CLASS</div>
+                </div>
+                <div className="des-hover">
+                  <div className="txt1">鲨鱼班</div>
+                  <div className="txt2">SHARK CLASS</div>
+                  <div className="txt3">课程优势：</div>
+                  <div className="txt4">
+                    为儿童提供一个丰富且具刺激性的环境，在自主探索中变得勇敢，在课程中学会互帮互助，以团队互动的形式让儿童在课程中学会分享与帮助
+                  </div>
+                  <div className="txt5">点击查看更多</div>
+                </div>
               </div>
             </Swiper>
             {this.state.cIndex === 0 ? (

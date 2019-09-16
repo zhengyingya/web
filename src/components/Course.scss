@@ -63,22 +63,70 @@
     cursor: pointer;
     &:hover {
       transform: scale(1.05);
+      .des {
+        display: none;
+      }
+      .des-hover {
+        display: block;
+      }
     }
-    .txt1 {
-      position: absolute;
-      bottom: 70px;
-      left: 40px;
-      color: #fff;
-      font-size: 20px;
-      font-weight: 600;
+    .des {
+      .txt1 {
+        position: absolute;
+        bottom: 70px;
+        left: 40px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .txt2 {
+        position: absolute;
+        bottom: 50px;
+        left: 40px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+      }
     }
-    .txt2 {
+    .des-hover {
+      display: none;
       position: absolute;
-      bottom: 50px;
-      left: 40px;
-      color: #fff;
-      font-size: 16px;
-      font-weight: 500;
+      bottom: 10px;
+      left: 20px;
+      background: rgba(45, 119, 199, 0.6);
+      text-align: left;
+      padding: 10px 20px;
+      width: 180px;
+      border-radius: 5px;
+      .txt1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 600;
+      }
+      .txt2 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
+      .txt3 {
+        color: #f8b42d;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      .txt4 {
+        color: #fff;
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+      .txt5 {
+        color: #f8b42d;
+        font-size: 12px;
+        font-weight: 600;
+        border-bottom: 1px solid #f8b42d;
+        width: 75px;
+      }
     }
     .gray-bg {
       position: absolute;
