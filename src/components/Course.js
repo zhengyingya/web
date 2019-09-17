@@ -310,7 +310,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     通过潜水练习，促进宝宝心肺功能发育，以柔和抚触使婴儿进行主动和被动的运动，促进血液循环
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
               <div
@@ -341,7 +341,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     针对不同宝宝自身的实际情况，配合宝宝适当放慢课程进度，通过有次序、有部位、有技巧地抚触
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
               <div
@@ -372,7 +372,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     通过多元趣味性游戏，激发宝宝对游泳运动的兴趣，消除宝宝后期对水的害怕心理，指导宝宝练习基础游泳动作
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
               <div
@@ -403,7 +403,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     强化精细动作，加强协调性训练，有助于刺激脑部与神经系统的发展，不断重复逻辑性信号词，增强宝宝的智力和理解能力
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
               <div
@@ -434,7 +434,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     以重复性游泳动作教学为主，力求规范化每一个动作，锻炼宝宝的臂部腿部力量，掌握水中良好的协调和平衡能力
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
               <div
@@ -464,7 +464,7 @@ class Course extends React.Component {
                   <div className="txt4">
                     为儿童提供一个丰富且具刺激性的环境，在自主探索中变得勇敢，在课程中学会互帮互助，以团队互动的形式让儿童在课程中学会分享与帮助
                   </div>
-                  <div className="txt5">点击查看更多</div>
+                  <span className="txt5">点击查看更多</span>
                 </div>
               </div>
             </Swiper>
