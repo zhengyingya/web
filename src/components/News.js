@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Footer from "./Footer";
 import { Format } from "../utils";
 import "./News.scss";
@@ -14,7 +14,7 @@ class News extends React.Component {
   }
 
   componentDidMount() {
-    fetch("/api/NewsAPI/", {
+    fetch("http://47.92.194.221/api/NewsAPI/", {
       method: "GET"
     })
       .then(response => {
@@ -28,7 +28,7 @@ class News extends React.Component {
   }
 
   jump = id => {
-    fetch(`/api/NewsAPI/${id}`, {
+    fetch(`http://47.92.194.221/api/NewsAPI/${id}`, {
       method: "GET"
     })
       .then(response => {
