@@ -1,5 +1,6 @@
-﻿import React, { Fragment } from "react";
+﻿import React from "react";
 import Modal from "./Modal";
+import Footer from "./Footer";
 import "./Join.scss";
 
 class Join extends React.Component {
@@ -7,7 +8,8 @@ class Join extends React.Component {
   state = {
     visible1: false,
     visible2: false,
-    visible3: false
+    visible3: false,
+    qavisible: false
   };
 
   onWheel = e => {
@@ -453,48 +455,7 @@ class Join extends React.Component {
             </div>
           </div>
         </div>
-        <div className="footer">
-          <div className="left">
-            <div className="tab">
-              <dd>关于我们 ABOUT US</dd>
-              <dd>常见问题 FAQ</dd>
-              <dd>加入我们 JOIN US</dd>
-            </div>
-            <div className="tab2">
-              <dd>商务合作 BUSSINESS COOPERATION</dd>
-              <dd>官方客服 TEL 400-0220-058</dd>
-            </div>
-          </div>
-          <img
-            className="divider"
-            src={require("../assert/join/foot-divider.png")}
-          />
-          <div className="right">
-            <div className="top">
-              {/* <a
-                href="http://wpa.qq.com/msgrd?v=3&uin=1846189021&site=qq&menu=yes"
-                target="_blank"
-              > */}
-              <div className="qq">
-                <div className="qq-modal"></div>
-              </div>
-              {/* </a> */}
-              <div className="wechat">
-                <div className="qrcode"></div>
-              </div>
-              {/* <a href="https://weibo.com" target="_blank"> */}
-              <div className="webo">
-                <div className="douyin-model"></div>
-              </div>
-              {/* </a> */}
-              <div className="logo" />
-            </div>
-            <div className="bottom">
-              <div>Copyright厦门暖舍教育咨询有限公司版权所有</div>
-              <div>All rights reserved浙CP备120289758号-1</div>
-            </div>
-          </div>
-        </div>
+        <Footer />
       </div>
     );
   }

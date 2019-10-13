@@ -1,5 +1,4 @@
 ﻿import React from "react";
-import Swiper from "react-id-swiper";
 import { createPortal } from "react-dom";
 import classnames from "classnames";
 import "react-id-swiper/lib/styles/scss/swiper.scss";
@@ -133,13 +132,13 @@ class Advantage extends React.Component {
 
                   <div className="txt2">
                     Blue&nbsp;Blue亲子游泳的教练通过世界上最大的游泳教学及救生组织STA的培训和认证，是英国游泳教练协会的成员，拥有专为婴幼儿量身定制课程计划、独创因材施教的教学方法、灵活应变的教学经验等能力。
-	    Blue&nbsp;Blue亲子游泳总教练Julie-Ann
+                    Blue&nbsp;Blue亲子游泳总教练Julie-Ann
                     James茱莉安·詹姆斯是英国婴幼儿游泳教学领域的先锋，拥有30余年的游泳教学经验及6项STA任教资格证书，为广大教练员和学员们提供专业的亲子游泳
                   </div>
                   <div className="txt3">教学及救生培训。</div>
                   <div className="txt3">
-                   历经多年发展，
-	    Blue&nbsp;Blue始终立足实际、放眼国际，于2018年引进澳洲四十余年的高标准水中教育体系，根据AUSTSWIM游泳与水安全教育的行业标准，开发基于中国婴幼儿生理与心理特征的水中安全教育教学体系，培养符合国际标准的水中安全教育教学与婴幼儿游泳的教练员，结合提升教练员专业技能，掌握不同年龄阶段的水中教学模式，不断提升水中培训技能，持续完善教学体系。
+                    历经多年发展，
+                    Blue&nbsp;Blue始终立足实际、放眼国际，于2018年引进澳洲四十余年的高标准水中教育体系，根据AUSTSWIM游泳与水安全教育的行业标准，开发基于中国婴幼儿生理与心理特征的水中安全教育教学体系，培养符合国际标准的水中安全教育教学与婴幼儿游泳的教练员，结合提升教练员专业技能，掌握不同年龄阶段的水中教学模式，不断提升水中培训技能，持续完善教学体系。
                   </div>
                 </div>
                 <div className="btn-close" onClick={this.onCancel} />

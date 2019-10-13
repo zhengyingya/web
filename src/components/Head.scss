@@ -1,5 +1,5 @@
 .head {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -10,6 +10,7 @@
   box-sizing: border-box;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.19);
   z-index: 10000;
+  min-width: 1330px;
   &::before {
     content: "";
     position: absolute;

@@ -36,7 +36,7 @@ class Content extends React.Component {
     if (this.slider) {
       this.props.onRef(this.slider);
     }
-    // this.slider.slickGoTo(6);
+    // this.slider.slickGoTo(7);
   }
 
   handleScroll(e) {
@@ -223,6 +223,18 @@ class Content extends React.Component {
                 slickPrev: this.slickPrev
               }}
               load={() => require("./Join").default}
+            />
+          </div>
+          <div className="item">
+            {""}
+            <LazyComponent
+              time={500}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex,
+                slickPrev: this.slickPrev
+              }}
+              load={() => require("./News").default}
             />
           </div>
         </Slider>

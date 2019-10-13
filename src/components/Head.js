@@ -58,6 +58,14 @@ class Head extends React.Component {
                 加盟Blue&nbsp;Blue
               </div>
             </div>
+            <div className="item">
+              <div
+                className={index === 7 && "active"}
+                onClick={() => slickGoTo(7)}
+              >
+                新闻
+              </div>
+            </div>
           </div>
         </div>
         <div className={`right ${index === 2 && "right-ac "}`} />

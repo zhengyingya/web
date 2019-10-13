@@ -1,134 +1,140 @@
 .page-join {
   height: 100%;
   overflow: auto;
-  .footer {
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  background: url(../assert/join/foot-bg.png);
+  background-size: 100% 100%;
+  padding: 60px 0;
+  box-sizing: border-box;
+  .left {
     display: flex;
-    width: 100%;
-    height: 250px;
-    background: url(../assert/join/foot-bg.png);
-    background-size: 100% 100%;
-    padding: 60px 0;
-    box-sizing: border-box;
-    .left {
-      display: flex;
-      flex: 1;
-      justify-content: flex-end;
-      .tab {
-        width: 240px;
-        text-align: left;
-      }
-      .tab2 {
-        width: 380px;
-        text-align: left;
-      }
-      dd {
-        color: #fff;
-        margin-bottom: 30px;
-      }
+    flex: 1;
+    justify-content: flex-end;
+    .logo {
+      width: 80px;
+      height: 80px;
+      background: url(../assert/join/logo.png);
+      background-size: 100% 100%;
     }
-    .divider {
-      width: 2px;
+    .tab {
+      width: 100px;
+      text-align: left;
     }
-    .right {
+    .tab2 {
+      width: 380px;
+      text-align: left;
+    }
+    dd {
+      color: #fff;
+      margin-bottom: 15px;
+    }
+  }
+  .divider {
+    width: 2px;
+  }
+  .right {
+    position: relative;
+    flex: 1;
+    .top {
       position: relative;
-      flex: 1;
-      .top {
-        position: relative;
-        display: flex;
-        width: 620px;
-        margin-bottom: 50px;
-        padding-left: 60px;
-      }
-      .bottom {
-        width: 420px;
-        color: #fff;
-        text-align: center;
-        margin-left: 180px;
-        font-size: 14px;
-      }
-      .qq {
-        position: relative;
-        width: 35px;
-        height: 35px;
-        background: url(../assert/join/qq.png);
-        background-size: 100% 100%;
-        margin-right: 30px;
-        &:hover {
-          .qq-modal {
-            display: block;
-          }
-        }
+      display: flex;
+      width: 620px;
+      margin-bottom: 50px;
+      padding-left: 120px;
+    }
+    .bottom {
+      width: 420px;
+      color: #fff;
+      text-align: center;
+      // margin-left: 180px;
+      font-size: 14px;
+    }
+    .qq {
+      position: relative;
+      width: 35px;
+      height: 35px;
+      background: url(../assert/join/qq.png);
+      background-size: 100% 100%;
+      margin-right: 30px;
+      &:hover {
         .qq-modal {
-          display: none;
-          position: absolute;
-          width: 150px;
-          height: 190px;
-          background: #fff;
-          bottom: 50px;
-          left: -55px;
-          background: url(../assert/join/qq-modal.jpeg);
-          background-size: 100% 100%;
+          display: block;
         }
       }
-      .wechat {
-        position: relative;
-        width: 35px;
-        height: 35px;
-        background: url(../assert/join/wechat.png);
-        background-size: 100% 100%;
-        margin-right: 30px;
-        cursor: pointer;
-        &:hover {
-          .qrcode {
-            display: block;
-          }
-        }
-        .qrcode {
-          display: none;
-          position: absolute;
-          width: 150px;
-          height: 150px;
-          background: #fff;
-          bottom: 50px;
-          left: -55px;
-          background: url(../assert/about/qrcode.png);
-          background-size: 100% 100%;
-        }
-      }
-      .webo {
-        position: relative;
-        width: 40px;
-        height: 40px;
-        background: url(../assert/join/douyin.png);
-        background-size: 100% 100%;
-        margin-top: -2px;
-        cursor: pointer;
-        &:hover {
-          .douyin-model {
-            display: block;
-          }
-        }
-        .douyin-model {
-          display: none;
-          position: absolute;
-          width: 150px;
-          height: 190px;
-          background: #fff;
-          bottom: 50px;
-          left: -55px;
-          background: url(../assert/join/douyin-modal.jpeg);
-          background-size: 100% 100%;
-        }
-      }
-      .logo {
+      .qq-modal {
+        display: none;
         position: absolute;
-        top: -5px;
-        right: 142px;
-        width: 56px;
-        height: 55px;
-        background: url(../assert/join/logo.png);
+        width: 150px;
+        height: 190px;
+        background: #fff;
+        bottom: 50px;
+        left: -55px;
+        background: url(../assert/join/qq-modal.jpeg);
         background-size: 100% 100%;
       }
+    }
+    .wechat {
+      position: relative;
+      width: 35px;
+      height: 35px;
+      background: url(../assert/join/wechat.png);
+      background-size: 100% 100%;
+      margin-right: 30px;
+      cursor: pointer;
+      &:hover {
+        .qrcode {
+          display: block;
+        }
+      }
+      .qrcode {
+        display: none;
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        background: #fff;
+        bottom: 50px;
+        left: -55px;
+        background: url(../assert/about/qrcode.png);
+        background-size: 100% 100%;
+      }
+    }
+    .webo {
+      position: relative;
+      width: 40px;
+      height: 40px;
+      background: url(../assert/join/douyin.png);
+      background-size: 100% 100%;
+      margin-top: -2px;
+      cursor: pointer;
+      &:hover {
+        .douyin-model {
+          display: block;
+        }
+      }
+      .douyin-model {
+        display: none;
+        position: absolute;
+        width: 150px;
+        height: 190px;
+        background: #fff;
+        bottom: 50px;
+        left: -55px;
+        background: url(../assert/join/douyin-modal.jpeg);
+        background-size: 100% 100%;
+      }
+    }
+    .logo {
+      position: absolute;
+      top: -5px;
+      right: 142px;
+      width: 56px;
+      height: 55px;
+      background: url(../assert/join/logo.png);
+      background-size: 100% 100%;
     }
   }
 }
@@ -487,6 +493,59 @@
   }
 }
 
+.qa-modal {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1100px;
+  height: 810px;
+  background: #fff;
+  border-radius: 10px;
+  align-items: center;
+  > h4 {
+    margin: 15px 0;
+  }
+  .btn-close {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    right: 30px;
+    top: 30px;
+    background: url(../assert/manage/btn-close.png);
+    background-size: 100% 100%;
+    cursor: pointer;
+  }
+  > .divider {
+    width: 53px;
+    height: 5px;
+    background: url(../assert/about/divider.png);
+    background-size: 100% 100%;
+  }
+  > .card-wrap {
+    width: 1050px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    > .card {
+      width: 500px;
+      margin-bottom: 23px;
+      border-bottom: 1px solid #ccc;
+    }
+    > .no-line {
+      border-bottom: none;
+    }
+    .mb-15 {
+      margin-bottom: 15px;
+    }
+    .mb-20 {
+      margin-bottom: 20px;
+    }
+    .txt1 {
+      color: #0496f2;
+      margin-right: 10px;
+    }
+  }
+}
 // @media screen and (min-width: 1919px) {
 //   .page-join-bg {
 //     height: 6250px;
