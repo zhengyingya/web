@@ -6,7 +6,8 @@ class Footer extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      qavisible: false
+      qavisible: false,
+      joinvisible: false
     };
   }
 
@@ -27,15 +28,20 @@ class Footer extends React.Component {
               <div className="logo" />
             </div>
             <div className="tab2">
-              <dd>加入我们 JOIN US</dd>
-              <dd>商务合作 BUSSINESS COOPERATION</dd>
-              <dd>官方客服 TEL 400-0220-058</dd>
+              <dd
+                onClick={() => this.setState({ joinvisible: true })}
+                style={{ cursor: "pointer" }}
+              >
+                加入我们 JOIN US
+              </dd>
+              {/* <dd>商务合作 BUSSINESS COOPERATION</dd> */}
               <dd
                 onClick={() => this.setState({ qavisible: true })}
                 style={{ cursor: "pointer" }}
               >
                 常见问题 FAQ
               </dd>
+              <dd>官方客服 TEL 400-0220-058</dd>
             </div>
           </div>
           <img
@@ -182,6 +188,48 @@ class Footer extends React.Component {
                   <span>
                     目前温州、重庆、山东、宁波、绍兴、台州、丽水、衢州等地设有22家门店，现有上海、杭州、吉林等多个城市正在陆续开放门店。
                   </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </Modal>
+        <Modal
+          visible={this.state.joinvisible}
+          showMask={true}
+          height={310}
+          onCancel={() => {
+            this.onCancel("joinvisible");
+          }}
+        >
+          <div className="join-modal">
+            <div
+              className="btn-close"
+              onClick={() => {
+                this.onCancel("joinvisible");
+              }}
+            />
+            <h3>联系我们</h3>
+            <div className="divider" />
+            <h4>CONTACT US</h4>
+            <div className="card-wrap">
+              <div className="card">
+                <img
+                  className="img"
+                  src={require("../assert/join/business.png")}
+                ></img>
+                <div className="panel">
+                  <div>商务拓展</div>
+                  <div>bdblueblue@163.com</div>
+                </div>
+              </div>
+              <div className="card">
+                <img
+                  className="img"
+                  src={require("../assert/join/recruit.png")}
+                ></img>
+                <div className="panel">
+                  <div>人才招聘</div>
+                  <div>hrblueblue@163.com</div>
                 </div>
               </div>
             </div>

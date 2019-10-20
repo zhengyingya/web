@@ -180,6 +180,18 @@ class Content extends React.Component {
               load={() => require("./Course").default}
             />
           </div>
+          <div className="item">
+            {""}
+            <LazyComponent
+              time={500}
+              default={<div>loading</div>}
+              realProps={{
+                cIndex: this.props.cIndex,
+                slickPrev: this.slickPrev
+              }}
+              load={() => require("./News").default}
+            />
+          </div>
           <div className="item about-page-1">
             {""}
             {/* <ManageSystem
@@ -223,18 +235,6 @@ class Content extends React.Component {
                 slickPrev: this.slickPrev
               }}
               load={() => require("./Join").default}
-            />
-          </div>
-          <div className="item">
-            {""}
-            <LazyComponent
-              time={500}
-              default={<div>loading</div>}
-              realProps={{
-                cIndex: this.props.cIndex,
-                slickPrev: this.slickPrev
-              }}
-              load={() => require("./News").default}
             />
           </div>
         </Slider>
