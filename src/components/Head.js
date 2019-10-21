@@ -47,7 +47,7 @@ class Head extends React.Component {
                 className={index === 5 && "active"}
                 onClick={() => slickGoTo(5)}
               >
-                Blue&nbsp;Blue集成化管理系统
+                动态资讯
               </div>
             </div>
             <div className="item">
@@ -55,7 +55,7 @@ class Head extends React.Component {
                 className={index === 6 && "active"}
                 onClick={() => slickGoTo(6)}
               >
-                加盟Blue&nbsp;Blue
+                Blue&nbsp;Blue集成化管理系统
               </div>
             </div>
             <div className="item">
@@ -63,7 +63,7 @@ class Head extends React.Component {
                 className={index === 7 && "active"}
                 onClick={() => slickGoTo(7)}
               >
-                新闻
+                加盟Blue&nbsp;Blue
               </div>
             </div>
           </div>

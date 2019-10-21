@@ -71,7 +71,7 @@ class ManageSystem extends React.Component {
     const { index, left } = this.state;
     return (
       <div className="page-manage-system" onWheel={this.onWheel}>
-        {this.props.cIndex === 5 && (
+        {this.props.cIndex === 6 && (
           <Fragment>
             <div className={`wave ${index === 1 && "anim-fadein"}`} />
             <div className="left">

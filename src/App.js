@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "./components/Head";
 import Content from "./components/Content";
-import logo from "./logo.svg";
+import "react-id-swiper/lib/styles/scss/swiper.scss";
 import "./App.css";
 import "./slick.min.css";
 

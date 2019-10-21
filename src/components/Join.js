@@ -1,4 +1,6 @@
 ﻿import React from "react";
+import Swiper from "react-id-swiper";
+import "react-id-swiper/lib/styles/scss/swiper.scss";
 import Modal from "./Modal";
 import Footer from "./Footer";
 import "./Join.scss";
@@ -36,8 +38,51 @@ class Join extends React.Component {
     return (
       <div className="page-join" onWheel={this.onWheel}>
         <div className="page-join-bg">
-          {/* <img className="bg" src={require("../assert/join/bg.png")} /> */}
-          <img className="img-i1" src={require("../assert/join/i1.jpg")} />
+          {/* <img className="img-i1" src={require("../assert/join/i1.jpg")} /> */}
+          <div className="banner">
+            <Swiper
+              loop={true}
+              pagination={{
+                el: ".swiper-pagination",
+                clickable: true
+              }}
+              autoplay={{
+                delay: 2500,
+                disableOnInteraction: false
+              }}
+            >
+              <div className="banner-item">
+                <img
+                  className="img-i1"
+                  src={require("../assert/join/banner1.jpg")}
+                />
+              </div>
+              <div className="banner-item">
+                <img
+                  className="img-i1"
+                  src={require("../assert/join/banner2.jpg")}
+                />
+              </div>
+              <div className="banner-item">
+                <img
+                  className="img-i1"
+                  src={require("../assert/join/banner3.jpg")}
+                />
+              </div>
+              <div className="banner-item">
+                <img
+                  className="img-i1"
+                  src={require("../assert/join/banner4.jpg")}
+                />
+              </div>
+              <div className="banner-item">
+                <img
+                  className="img-i1"
+                  src={require("../assert/join/banner5.jpg")}
+                />
+              </div>
+            </Swiper>
+          </div>
           <h2 style={{ marginTop: "50px" }}>加盟前景</h2>
           <div className="divider" />
           <h3>JOINING PROSPECTS</h3>
@@ -427,7 +472,7 @@ class Join extends React.Component {
             </div>
           </div>
 
-          <img className="img6" src={require("../assert/join/i6.jpg")} />
+          <img className="img6" src={require("../assert/join/i7.jpg")} />
 
           <h2 style={{ marginTop: "80px" }}>投资回报可观</h2>
           <div className="divider" />
