@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Modal from "./Modal";
 import "./Join.scss";
 
@@ -68,8 +68,8 @@ class Footer extends React.Component {
               {/* </a> */}
             </div>
             <div className="bottom">
-              <div>Copyright厦门暖舍教育咨询有限公司版权所有</div>
-              <div>All rights reserved浙CP备120289758号-1</div>
+              <div>© 2019-2029 厦门暖舍教育咨询有限公司 版权所有</div>
+              <div>ICP证：<a style="color:#fff" href="http://www.beian.miit.gov.cn">浙ICP备13015284号-1</a></div>
             </div>
           </div>
         </div>
