@@ -14,7 +14,7 @@ class News extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://47.92.194.221/api/NewsAPI/", {
+    fetch("http://47.92.194.221:8089/api/NewsAPI/", {
       method: "GET"
     })
       .then(response => {
@@ -28,7 +28,7 @@ class News extends React.Component {
   }
 
   jump = id => {
-    fetch(`http://47.92.194.221/api/NewsAPI/${id}`, {
+    fetch(`http://47.92.194.221:8089/api/NewsAPI/${id}`, {
       method: "GET"
     })
       .then(response => {

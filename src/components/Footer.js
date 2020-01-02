@@ -69,7 +69,7 @@ class Footer extends React.Component {
             </div>
             <div className="bottom">
               <div>© 2019-2029 厦门暖舍教育咨询有限公司 版权所有</div>
-              <div>ICP证：<a style="color:#fff" href="http://www.beian.miit.gov.cn">浙ICP备13015284号-1</a></div>
+              <div>ICP证：<a className="icp-link" href="http://www.beian.miit.gov.cn">浙ICP备13015284号-1</a></div>
             </div>
           </div>
         </div>
